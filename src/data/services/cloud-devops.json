@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Cloud & DevOps Services | Forgeone",
+    "description": "Forgeone helps companies migrate to the cloud, automate deployments, and build DevOps practices that reduce incidents and accelerate release cycles."
+  },
+  "slug": "cloud-devops",
+  "name": "Cloud & DevOps",
+  "hero": {
+    "eyebrow": "Cloud & DevOps",
+    "title": "Infrastructure that keeps pace with your ambition.",
+    "subtitle": "We modernize cloud environments, automate release pipelines, and build the observability practices that turn deployment from a high-stakes event into a routine operation.",
+    "image": "/assets/devops.jpg"
+  },
+  "overview": {
+    "eyebrow": "Overview",
+    "title": "Cloud infrastructure and delivery pipelines you can trust.",
+    "description": "Release anxiety is a symptom of missing infrastructure, not missing heroics. Manual deployments, environment drift, and absent observability create a culture of fear that slows everything down. Forgeone helps organizations migrate to cloud-native architectures, implement CI/CD pipelines, and establish DevOps practices that reduce incidents while accelerating delivery. We build systems where shipping software feels boring — and boring is exactly what you want.",
+    "highlights": [
+      "AWS, Azure, and Google Cloud migration and optimization",
+      "CI/CD pipeline design with automated testing and rollback",
+      "Infrastructure as code with Terraform and CloudFormation",
+      "Container orchestration with Docker and Kubernetes",
+      "Centralized observability — logging, metrics, and distributed tracing"
+    ]
+  },
+  "offerings": {
+    "eyebrow": "What We Deliver",
+    "title": "Cloud and DevOps capabilities for modern delivery.",
+    "description": "From cloud migration to release automation, we build the infrastructure foundation that lets your engineering team move fast safely.",
+    "items": [
+      {
+        "title": "Cloud Migration",
+        "description": "Phased migration strategies — lift-and-shift, replatform, or refactor — designed to minimize risk and deliver value at every stage without disrupting operations.",
+        "icon": "CloudUpload"
+      },
+      {
+        "title": "CI/CD Pipeline Engineering",
+        "description": "Automated build, test, and deployment pipelines that reduce release time from days to minutes with built-in quality gates and rollback capability.",
+        "icon": "GitBranch"
+      },
+      {
+        "title": "Infrastructure as Code",
+        "description": "Reproducible, version-controlled infrastructure with Terraform or CloudFormation — eliminating environment drift and manual configuration errors.",
+        "icon": "Code"
+      },
+      {
+        "title": "Container & Kubernetes",
+        "description": "Containerized applications with Docker and orchestrated deployments on Kubernetes — auto-scaling, self-healing, and efficient resource utilization.",
+        "icon": "Box"
+      },
+      {
+        "title": "Observability & Monitoring",
+        "description": "Centralized logging, metrics dashboards, distributed tracing, and actionable alerting that reduce mean time to detection and recovery.",
+        "icon": "Activity"
+      },
+      {
+        "title": "Cloud Cost Optimization",
+        "description": "Right-sizing resources, reserved instance planning, and automated scaling policies that reduce cloud spend without sacrificing performance.",
+        "icon": "DollarSign"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "Structured transformation with measurable milestones.",
+    "description": "DevOps transformation is a capability-building engagement — we work alongside your team so knowledge stays when we leave.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Infrastructure Assessment",
+        "description": "We audit current environments, deployment processes, incident history, and team workflows to identify the highest-impact improvements."
+      },
+      {
+        "number": "02",
+        "title": "Architecture & Roadmap",
+        "description": "Target-state architecture with a phased roadmap — prioritizing changes that reduce risk and deliver quick wins before tackling complex migrations."
+      },
+      {
+        "number": "03",
+        "title": "Pipeline & IaC Implementation",
+        "description": "CI/CD pipelines, infrastructure as code, and container configurations built collaboratively with your engineering team."
+      },
+      {
+        "number": "04",
+        "title": "Observability Setup",
+        "description": "Logging, metrics, tracing, and alerting configured with runbooks and dashboards tailored to your team's operational needs."
+      },
+      {
+        "number": "05",
+        "title": "Knowledge Transfer & Handoff",
+        "description": "Documentation, training sessions, and paired operations so your team runs deployments and responds to incidents independently."
+      }
+    ]
+  },
+  "tech": {
+    "eyebrow": "Technology",
+    "title": "Cloud and DevOps tools we work with.",
+    "description": "We are platform-agnostic and select tools based on your existing investments, team skills, and operational requirements.",
+    "items": [
+      {
+        "name": "Google Cloud",
+        "logo": "/assets/techs/clouddevops/google-cloud.svg"
+      },
+      {
+        "name": "Azure",
+        "logo": "/assets/techs/clouddevops/azure.svg"
+      },
+      {
+        "name": "Docker",
+        "logo": "/assets/techs/clouddevops/docker.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/techs/clouddevops/kubernetes.svg"
+      },
+      {
+        "name": "Jenkins",
+        "logo": "/assets/techs/clouddevops/jenkins.svg"
+      },
+      {
+        "name": "GitHub",
+        "logo": "/assets/techs/clouddevops/GitHub.svg"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "title": "Common questions about cloud and DevOps.",
+    "items": [
+      {
+        "question": "Which cloud platform do you recommend?",
+        "answer": "It depends on your existing investments, compliance requirements, and team expertise. We work across AWS, Azure, and GCP — and recommend based on total cost of ownership, service availability, and your team's ability to operate the platform long-term."
+      },
+      {
+        "question": "Can you migrate our system without downtime?",
+        "answer": "Yes. We use phased migration strategies — strangler-fig patterns, blue-green deployments, and database replication — that allow incremental cutover without service interruption. Every migration plan includes rollback procedures."
+      },
+      {
+        "question": "How quickly can we expect to see results?",
+        "answer": "Most teams see meaningful improvement within the first 4–6 weeks — automated deployments, basic observability, and environment parity. Full DevOps transformation typically takes 3–6 months depending on system complexity."
+      },
+      {
+        "question": "Do you work with our existing engineering team?",
+        "answer": "Always. DevOps transformation only sticks when your team owns the practices. We pair on every pipeline, every Terraform module, and every runbook — building capability, not dependency."
+      },
+      {
+        "question": "How do you handle cloud security during migration?",
+        "answer": "Security is embedded in every phase: network segmentation, IAM policies, encryption at rest and in transit, secrets management, and compliance validation. We follow cloud provider security best practices and your organization's policies."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Modernize Your Infrastructure",
+    "title": "Ready to deploy with confidence?",
+    "description": "Tell us about your current infrastructure and release challenges. We will outline a transformation path with clear milestones.",
+    "primaryCta": {
+      "label": "Book a Discovery Call",
+      "path": "/contact"
+    },
+    "secondaryCta": {
+      "label": "View Cloud Case Studies",
+      "path": "/case-studies"
+    }
+  },
+  "relatedCaseStudyIds": [
+    "fintech-cloud-migration",
+    "logistics-devops-transformation"
+  ],
+  "relatedBlogIds": [
+    "devops-without-drama",
+    "modernizing-legacy-platforms"
+  ]
+}

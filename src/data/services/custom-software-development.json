@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Custom Software Development Services | Forgeone",
+    "description": "Forgeone designs and builds custom software platforms tailored to your business — scalable architectures, clean code, and delivery organized around your outcomes."
+  },
+  "slug": "custom-software-development",
+  "name": "Custom Software Development",
+  "hero": {
+    "eyebrow": "Custom Software Development",
+    "title": "Software built for how your business actually works.",
+    "subtitle": "Off-the-shelf tools force compromises. We build custom platforms that fit your workflows, integrate with your systems, and scale as your ambitions grow.",
+    "image": "/assets/enterprise_app.webp"
+  },
+  "overview": {
+    "eyebrow": "Overview",
+    "title": "Purpose-built systems that give you a competitive edge.",
+    "description": "Generic SaaS products cover common use cases but rarely fit complex operational workflows, legacy integrations, or industry-specific requirements. Forgeone builds custom software that maps to your business logic — internal tools, customer-facing platforms, data pipelines, and automation systems designed for long-term maintainability. We combine product thinking with engineering discipline so what we build today remains valuable three years from now.",
+    "highlights": [
+      "Full-stack platform development from architecture to deployment",
+      "Legacy system modernization and incremental replatforming",
+      "Complex third-party integrations and API orchestration",
+      "Modular architectures that support future feature expansion",
+      "Documentation and knowledge transfer for internal team ownership"
+    ]
+  },
+  "offerings": {
+    "eyebrow": "What We Build",
+    "title": "Custom software for complex business problems.",
+    "description": "We take on projects where off-the-shelf solutions fall short — and deliver systems your team can operate and extend independently.",
+    "items": [
+      {
+        "title": "Business Platforms",
+        "description": "End-to-end platforms that manage core business operations — order processing, workflow automation, customer portals, and admin dashboards.",
+        "icon": "LayoutDashboard"
+      },
+      {
+        "title": "Internal Tools & Automation",
+        "description": "Custom tools that eliminate manual processes, reduce operational overhead, and give teams visibility into the metrics that matter.",
+        "icon": "Wrench"
+      },
+      {
+        "title": "Legacy Modernization",
+        "description": "Incremental replatforming of aging systems using strangler-fig patterns — modern architecture without disrupting ongoing operations.",
+        "icon": "Archive"
+      },
+      {
+        "title": "System Integration",
+        "description": "Connect disparate systems — ERP, CRM, payment gateways, data warehouses — with reliable middleware and API orchestration layers.",
+        "icon": "Link"
+      },
+      {
+        "title": "Data Platforms",
+        "description": "ETL pipelines, data warehouses, and analytics platforms that turn raw data into actionable business intelligence.",
+        "icon": "Database"
+      },
+      {
+        "title": "SaaS Product Development",
+        "description": "Multi-tenant architectures, subscription billing, role-based access, and the infrastructure patterns that SaaS products require at scale.",
+        "icon": "Cloud"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "Discovery-driven delivery with clear milestones.",
+    "description": "Custom software succeeds when requirements are understood deeply and delivery is structured around measurable progress.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery & Architecture",
+        "description": "We map business workflows, system dependencies, and technical constraints — then design an architecture that balances immediate needs with future scalability."
+      },
+      {
+        "number": "02",
+        "title": "UX Design & Prototyping",
+        "description": "Wireframes and interactive prototypes validated with stakeholders ensure the software solves real problems before development begins."
+      },
+      {
+        "number": "03",
+        "title": "Iterative Development",
+        "description": "Two-week sprints with demoable increments. You see working software regularly and can reprioritize based on what you learn."
+      },
+      {
+        "number": "04",
+        "title": "Integration & Testing",
+        "description": "Rigorous testing against your existing systems, automated regression suites, and performance validation under realistic load conditions."
+      },
+      {
+        "number": "05",
+        "title": "Deployment & Handoff",
+        "description": "Production deployment with monitoring, documentation, and structured knowledge transfer so your team owns the system confidently."
+      }
+    ]
+  },
+  "tech": {
+    "eyebrow": "Technology",
+    "title": "Full-stack capabilities across modern stacks.",
+    "description": "We match technology choices to your requirements, team skills, and operational environment.",
+    "items": [
+      {
+        "name": "React",
+        "logo": "/assets/techs/frontend/react.svg"
+      },
+      {
+        "name": "Node.js",
+        "logo": "/assets/techs/backend/nodejs.svg"
+      },
+      {
+        "name": "Nest.js",
+        "logo": "/assets/techs/backend/Nest.js.svg"
+      },
+      {
+        "name": "Go",
+        "logo": "/assets/techs/backend/golang.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "/assets/techs/database/postgresql.svg"
+      },
+      {
+        "name": "Docker",
+        "logo": "/assets/techs/clouddevops/docker.svg"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "title": "Common questions about custom software projects.",
+    "items": [
+      {
+        "question": "How is custom software different from configuring existing tools?",
+        "answer": "Configuration works until your workflows outgrow the tool's assumptions. Custom software maps precisely to your business logic, integrates deeply with your systems, and evolves on your timeline — not a vendor's roadmap."
+      },
+      {
+        "question": "What does a typical custom software project cost?",
+        "answer": "Scope drives cost. A focused internal tool might take 8–12 weeks; a full platform rebuild could take 6–12 months. We provide detailed estimates after discovery and deliver incrementally so you see value before committing to the full scope."
+      },
+      {
+        "question": "Will we own the code and intellectual property?",
+        "answer": "Yes. All code, documentation, and IP created during the engagement belong to you. We build with open standards and widely adopted frameworks so you are never locked into proprietary tooling."
+      },
+      {
+        "question": "Can you modernize our existing system instead of rebuilding?",
+        "answer": "Often, yes. We assess your current system and recommend the most cost-effective path — incremental modernization, parallel rebuild, or targeted refactoring. We avoid unnecessary rewrites when a phased approach delivers the same outcomes."
+      },
+      {
+        "question": "How do you ensure the software is maintainable long-term?",
+        "answer": "Clean architecture, comprehensive test coverage, thorough documentation, and code review standards are non-negotiable on every project. We also pair with your team during development so knowledge transfers naturally."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Start Your Project",
+    "title": "Let's design software that fits your business.",
+    "description": "Describe the problem you need solved. We will share relevant experience and outline a discovery path.",
+    "primaryCta": {
+      "label": "Start a Conversation",
+      "path": "/contact"
+    },
+    "secondaryCta": {
+      "label": "View Case Studies",
+      "path": "/case-studies"
+    }
+  },
+  "relatedCaseStudyIds": [
+    "saas-platform-rebuild",
+    "fintech-cloud-migration"
+  ],
+  "relatedBlogIds": [
+    "modernizing-legacy-platforms",
+    "scaling-engineering-teams"
+  ]
+}

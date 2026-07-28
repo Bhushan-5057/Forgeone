@@ -1,0 +1,159 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply font-body bg-brand-neutral text-brand-primary antialiased overflow-x-hidden;
+    background-image:
+      radial-gradient(circle at top left, rgba(56, 189, 248, 0.1), transparent 20%),
+      radial-gradient(circle at top right, rgba(139, 92, 246, 0.08), transparent 18%),
+      linear-gradient(180deg, #f8fafc 0%, #f3f7ff 50%, #ffffff 100%);
+  }
+
+  ::selection {
+    @apply bg-brand-secondary/20 text-brand-primary;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.45;
+    background-image:
+      linear-gradient(rgba(124, 138, 165, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(124, 138, 165, 0.05) 1px, transparent 1px);
+    background-size: 72px 72px;
+    mask-image: radial-gradient(circle at center, black, transparent 92%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display tracking-tight text-ink;
+  }
+
+  p {
+    @apply text-steel;
+  }
+
+  img {
+    display: block;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .section-pad {
+    @apply px-5 sm:px-8 lg:px-10;
+  }
+
+  .container-site {
+    @apply mx-auto w-full max-w-site;
+  }
+
+  .container-wide {
+    @apply mx-auto w-full max-w-wide;
+  }
+
+  .site-section {
+    @apply relative py-16 sm:py-20 lg:py-24;
+  }
+
+  .premium-grid {
+    background-image:
+      linear-gradient(rgba(124, 138, 165, 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(124, 138, 165, 0.08) 1px, transparent 1px);
+    background-size: 36px 36px;
+  }
+
+  .premium-grid-dark {
+    background-image:
+      linear-gradient(rgba(226, 232, 240, 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(226, 232, 240, 0.08) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: none;
+  }
+
+  .premium-panel {
+    @apply rounded-[28px] border border-white/60 bg-white/75 shadow-soft backdrop-blur-xl;
+  }
+
+  .premium-panel-dark {
+    @apply rounded-[28px] border border-white/10 bg-brand-primary/70 text-frost shadow-glow backdrop-blur-xl;
+  }
+
+  .premium-card {
+    @apply relative overflow-hidden rounded-[28px] border border-white/60 bg-white/75 shadow-soft backdrop-blur-xl transition-transform duration-500;
+  }
+
+  .premium-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.45), rgba(139, 92, 246, 0.25), rgba(255, 255, 255, 0.4));
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .premium-card:hover {
+    transform: translateY(-6px);
+  }
+
+  .premium-orb {
+    @apply pointer-events-none absolute rounded-full blur-3xl;
+  }
+
+  .premium-badge {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-secondary/20 bg-brand-secondary/10 px-3 py-1 text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-brand-secondary;
+  }
+
+  .section-divider {
+    @apply relative;
+  }
+
+  .section-divider::after {
+    content: '';
+    position: absolute;
+    inset-inline: 0;
+    bottom: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(124, 138, 165, 0.2), transparent);
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand-secondary via-brand-accent to-brand-secondary bg-clip-text text-transparent;
+  }
+
+  .surface-outline {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.38),
+      0 1px 0 rgba(148, 163, 184, 0.12);
+  }
+
+  .mask-fade-bottom {
+    mask-image: linear-gradient(180deg, black 75%, transparent 100%);
+  }
+
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-secondary/70 focus-visible:ring-offset-2 focus-visible:ring-offset-white;
+  }
+}

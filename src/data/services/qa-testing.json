@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "title": "QA & Testing Services | Forgeone",
+    "description": "Forgeone delivers comprehensive QA and testing services — automated test suites, manual validation, performance testing, and quality processes that catch defects before users do."
+  },
+  "slug": "qa-testing",
+  "name": "QA & Testing",
+  "hero": {
+    "eyebrow": "QA & Testing",
+    "title": "Quality engineered in — not inspected at the end.",
+    "subtitle": "We build testing strategies and automation that catch defects early, reduce production incidents, and give your team confidence to ship faster.",
+    "image": "/assets/quality_test.webp"
+  },
+  "overview": {
+    "eyebrow": "Overview",
+    "title": "Testing that protects your reputation and your roadmap.",
+    "description": "Production defects cost more than development time — they cost customer trust, support overhead, and engineering momentum. Yet many teams treat QA as a final gate rather than a continuous practice embedded in every sprint. Forgeone helps organizations build quality into their development process: automated regression suites, performance testing under realistic load, security validation, and manual exploratory testing for the edge cases automation misses. The result is software your team ships confidently and your users trust.",
+    "highlights": [
+      "Automated test suite development — unit, integration, and end-to-end",
+      "Performance and load testing with realistic traffic simulation",
+      "Cross-browser and cross-device compatibility validation",
+      "Security testing integrated into the CI/CD pipeline",
+      "QA process design and team capability building"
+    ]
+  },
+  "offerings": {
+    "eyebrow": "What We Deliver",
+    "title": "Comprehensive testing across the quality spectrum.",
+    "description": "From test automation to manual validation, we cover the testing practices that prevent defects from reaching production.",
+    "items": [
+      {
+        "title": "Test Automation",
+        "description": "Maintainable automated test suites — unit, integration, API, and end-to-end — integrated into CI/CD pipelines that run on every commit.",
+        "icon": "Bot"
+      },
+      {
+        "title": "Manual & Exploratory Testing",
+        "description": "Skilled QA engineers who test beyond scripts — edge cases, usability issues, and workflow gaps that automation cannot detect.",
+        "icon": "Search"
+      },
+      {
+        "title": "Performance Testing",
+        "description": "Load, stress, and endurance testing that validates your application under realistic traffic — identifying bottlenecks before launch day.",
+        "icon": "Gauge"
+      },
+      {
+        "title": "Mobile Testing",
+        "description": "Device lab testing across iOS and Android versions, screen sizes, and network conditions to ensure consistent mobile experiences.",
+        "icon": "TabletSmartphone"
+      },
+      {
+        "title": "Security Testing",
+        "description": "Vulnerability scanning, penetration testing, and OWASP compliance validation integrated into your release process.",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "QA Process Consulting",
+        "description": "Test strategy design, quality metrics frameworks, and team training that embeds quality practices into your development culture.",
+        "icon": "ClipboardCheck"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "Quality built into every release cycle.",
+    "description": "We integrate with your development workflow — not as an external gate, but as a continuous practice that accelerates delivery.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Quality Assessment",
+        "description": "We review your current testing practices, defect history, release process, and coverage gaps to identify the highest-impact improvements."
+      },
+      {
+        "number": "02",
+        "title": "Test Strategy Design",
+        "description": "A testing pyramid aligned to your architecture — defining what to automate, what to test manually, and what quality metrics to track."
+      },
+      {
+        "number": "03",
+        "title": "Automation Development",
+        "description": "Building and integrating automated test suites into your CI/CD pipeline — with clear reporting and failure triage workflows."
+      },
+      {
+        "number": "04",
+        "title": "Validation & Regression",
+        "description": "Manual exploratory testing, performance validation, and regression suites that run before every release to production."
+      },
+      {
+        "number": "05",
+        "title": "Continuous Improvement",
+        "description": "Defect trend analysis, test coverage reviews, and process refinements that make each release safer than the last."
+      }
+    ]
+  },
+  "tech": {
+    "eyebrow": "Technology",
+    "title": "Testing tools and frameworks.",
+    "description": "We work with industry-standard testing tools that integrate cleanly with modern development workflows.",
+    "items": [
+      {
+        "name": "Selenium",
+        "logo": "/assets/techs/testing/selenium.svg"
+      },
+      {
+        "name": "Cypress",
+        "logo": "/assets/techs/testing/cypress.svg"
+      },
+      {
+        "name": "Jest",
+        "logo": "/assets/techs/testing/jest.svg"
+      },
+      {
+        "name": "Postman",
+        "logo": "/assets/techs/testing/postman.svg"
+      },
+      {
+        "name": "Insomnia",
+        "logo": "/assets/techs/testing/insomnia.svg"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "title": "Common questions about QA and testing.",
+    "items": [
+      {
+        "question": "Should we automate all our testing?",
+        "answer": "No — and teams that try often waste effort automating brittle UI tests while missing critical edge cases. We follow the testing pyramid: heavy unit and integration test automation, targeted end-to-end automation for critical paths, and manual exploratory testing for usability and edge cases."
+      },
+      {
+        "question": "Can you integrate with our existing CI/CD pipeline?",
+        "answer": "Yes. We integrate automated tests into GitHub Actions, GitLab CI, Jenkins, or whatever pipeline you use. Tests run on every commit with clear pass/fail reporting and failure notifications."
+      },
+      {
+        "question": "How do you handle testing for applications already in production?",
+        "answer": "We start by building regression suites around existing functionality — capturing current behavior before new changes introduce risk. This creates a safety net that enables confident iteration on live products."
+      },
+      {
+        "question": "Do you provide QA engineers or just automation?",
+        "answer": "Both. We embed QA engineers who perform manual testing, exploratory validation, and test planning alongside automation developers who build and maintain test suites. The combination catches defects that either approach alone would miss."
+      },
+      {
+        "question": "How do you measure testing effectiveness?",
+        "answer": "We track defect escape rate, test coverage by layer, mean time to detect defects, and release confidence scores. Quality metrics are shared with engineering and product stakeholders so testing impact is visible, not assumed."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Ship With Confidence",
+    "title": "Ready to build quality into your delivery process?",
+    "description": "Tell us about your current testing gaps and release challenges. We will recommend a strategy that fits your team and timeline.",
+    "primaryCta": {
+      "label": "Discuss QA Strategy",
+      "path": "/contact"
+    },
+    "secondaryCta": {
+      "label": "View Case Studies",
+      "path": "/case-studies"
+    }
+  },
+  "relatedCaseStudyIds": [
+    "healthcare-mobile-platform",
+    "logistics-devops-transformation"
+  ],
+  "relatedBlogIds": [
+    "devops-without-drama",
+    "security-by-design"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "About Us | Forgeone IT Solutions",
+    "description": "Meet Forgeone — the IT solutions partner helping ambitious companies modernize platforms, ship AI-powered products, and scale with confidence."
+  },
+  "hero": {
+    "eyebrow": "About Forgeone",
+    "title": "Engineering clarity into every product we build.",
+    "subtitle": "We are a team of strategists, designers, and engineers who help business leaders turn complex technology decisions into software that delivers measurable results.",
+    "image": "/assets/about1.webp"
+  },
+  "story": {
+    "eyebrow": "Our Story",
+    "title": "Built by operators who understand what it takes to ship.",
+    "paragraphs": [
+      "Forgeone started with a simple observation: too many technology projects fail not because of bad ideas, but because of fragmented execution. Strategy lives in one room, design in another, and engineering somewhere else entirely. Business leaders are left translating between teams while deadlines slip and budgets swell.",
+      "We founded Forgeone to close that gap. Our founders came from product engineering, enterprise software, and cloud infrastructure — backgrounds where shipping on time and operating at scale were non-negotiable. We built a company structured around accountable delivery: one team, one roadmap, one set of outcomes.",
+      "Today, Forgeone partners with growth-stage companies and established enterprises across fintech, healthcare, retail, and SaaS. We help them modernize legacy platforms, launch AI-powered features, and build the internal systems that keep operations running smoothly.",
+      "What has not changed is our core belief: great software is forged through clarity, craft, and honest partnership. We do not chase vanity metrics. We build systems that business and engineering teams can both stand behind — long after launch day."
+    ],
+    "image": "/assets/WhoWeAreImage-1.webp"
+  },
+  "mission": {
+    "eyebrow": "Our Mission",
+    "title": "Help companies move faster without trading away quality.",
+    "description": "Every engagement we take on is organized around outcomes — measurable progress, transparent communication, and software that continues to create value after launch. We exist to make ambitious technology roadmaps achievable.",
+    "pillars": [
+      {
+        "title": "Outcome ownership",
+        "description": "We define success with you up front, then organize delivery around those outcomes — not vanity velocity or ticket counts."
+      },
+      {
+        "title": "Engineering excellence",
+        "description": "We write code, design systems, and build infrastructure that meets production standards from day one — secure, tested, and maintainable."
+      },
+      {
+        "title": "Transparent partnership",
+        "description": "You always know where the project stands. Weekly demos, clear documentation, and direct access to the people doing the work."
+      },
+      {
+        "title": "Long-term value",
+        "description": "We build for what comes after launch — scalability, observability, and teams that can extend what we deliver without starting over."
+      }
+    ]
+  },
+  "approach": {
+    "eyebrow": "Our Approach",
+    "title": "How we turn complex mandates into shipped software.",
+    "description": "Every engagement follows a structured path — designed to reduce risk, maintain transparency, and deliver measurable outcomes at every stage.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery & Alignment",
+        "description": "We map your goals, constraints, and success criteria before writing a line of code. Stakeholder interviews, technical audits, and dependency mapping ensure everyone shares the same definition of done.",
+        "icon": "Search"
+      },
+      {
+        "number": "02",
+        "title": "Architecture & Planning",
+        "description": "Senior architects design systems that fit your scale, compliance requirements, and team capabilities. We produce clear roadmaps with phased milestones so progress is visible and predictable.",
+        "icon": "Layers"
+      },
+      {
+        "number": "03",
+        "title": "Iterative Delivery",
+        "description": "We ship in short cycles with working software at every sprint review. Continuous integration, automated testing, and regular demos keep momentum high and surprises low.",
+        "icon": "Rocket"
+      },
+      {
+        "number": "04",
+        "title": "Launch & Handoff",
+        "description": "Production deployments follow runbooks, rollback plans, and observability checklists. We transfer knowledge through documentation, pairing sessions, and structured handoff so your team owns the system confidently.",
+        "icon": "CheckCircle2"
+      },
+      {
+        "number": "05",
+        "title": "Ongoing Partnership",
+        "description": "Launch is a milestone, not an exit. We offer continued support, performance optimization, and roadmap advisory so the software we build keeps delivering value as your business evolves.",
+        "icon": "Handshake"
+      }
+    ],
+    "milestones": [
+      {
+        "year": "2018",
+        "title": "Founded",
+        "description": "Forgeone launched in San Francisco with a mission to bring senior engineering discipline to product teams that needed more than another vendor."
+      },
+      {
+        "year": "2020",
+        "title": "Cloud Practice Launch",
+        "description": "We formalized our cloud and DevOps practice, helping clients migrate legacy infrastructure and adopt modern delivery pipelines at scale."
+      },
+      {
+        "year": "2023",
+        "title": "AI & ML Practice",
+        "description": "Our AI practice opened to help organizations move from experiments to production-grade ML systems with proper governance and monitoring."
+      },
+      {
+        "year": "2026",
+        "title": "120+ Projects Delivered",
+        "description": "Across fintech, healthcare, retail, and enterprise SaaS, we have delivered over 120 projects with a 98% client retention rate."
+      }
+    ]
+  },
+  "culture": {
+    "eyebrow": "Culture & Values",
+    "title": "How we work — and what we stand for.",
+    "description": "Our culture is built on the same principles we bring to client work: clarity over complexity, ownership over handoffs, and honesty over optimism that ignores reality.",
+    "values": [
+      {
+        "title": "Clarity first",
+        "description": "We ask hard questions early, document decisions, and make trade-offs visible so nothing important gets lost in translation."
+      },
+      {
+        "title": "Craft matters",
+        "description": "We take pride in clean architecture, thoughtful UX, and code that the next team can understand and extend."
+      },
+      {
+        "title": "Bias for action",
+        "description": "We ship incrementally, learn from real usage, and iterate — because the best feedback always comes from production."
+      },
+      {
+        "title": "Radical accountability",
+        "description": "When something goes wrong, we own it, fix it, and improve the process. No blame-shifting, no surprises at the deadline."
+      },
+      {
+        "title": "Continuous learning",
+        "description": "Technology moves fast. We invest in our team's growth so clients always work with people who understand what's current — and what's hype."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Work With Us",
+    "title": "Ready to build something that lasts?",
+    "description": "Whether you need a full product team or targeted expertise on a critical initiative, we would like to hear what you are working on.",
+    "primaryCta": {
+      "label": "Send a Message",
+      "path": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Browse Services",
+      "path": "/services/custom-software-development"
+    }
+  }
+}

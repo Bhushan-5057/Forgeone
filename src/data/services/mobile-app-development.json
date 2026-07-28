@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "Mobile App Development Services | Forgeone",
+    "description": "Forgeone builds native-quality iOS and Android apps for enterprise and consumer products — offline-first, secure, and designed for real-world adoption."
+  },
+  "slug": "mobile-app-development",
+  "name": "Mobile App Development",
+  "hero": {
+    "eyebrow": "Mobile App Development",
+    "title": "Mobile apps your users actually adopt.",
+    "subtitle": "We build iOS and Android applications that solve real workflows — with the performance, security, and offline reliability that enterprise and consumer users demand.",
+    "image": "/assets/mobile_app_dev.webp"
+  },
+  "overview": {
+    "eyebrow": "Overview",
+    "title": "Product-led mobile engineering for business outcomes.",
+    "description": "Enterprise mobile projects fail when they try to replicate every desktop feature on a small screen or launch without understanding how users actually work. Forgeone takes a workflow-first approach: we identify the high-value tasks mobile makes better, then build focused experiences with polish — fast load times, intuitive navigation, reliable sync, and security built in from day one. The result is apps that earn adoption, not shelfware status.",
+    "highlights": [
+      "Cross-platform development with React Native and Flutter",
+      "Offline-first architecture for field teams and low-connectivity environments",
+      "HIPAA, SOC 2, and enterprise security compliance",
+      "App Store and Google Play submission and optimization",
+      "Performance tuning for smooth 60fps experiences on mid-range devices"
+    ]
+  },
+  "offerings": {
+    "eyebrow": "What We Build",
+    "title": "Mobile solutions for every business context.",
+    "description": "From consumer-facing products to enterprise field tools, we deliver mobile apps that perform under real-world conditions.",
+    "items": [
+      {
+        "title": "Enterprise Mobile Apps",
+        "description": "Field service, care coordination, inventory management, and sales enablement apps designed for professionals who need reliability over flashiness.",
+        "icon": "Building2"
+      },
+      {
+        "title": "Consumer Mobile Products",
+        "description": "Engaging iOS and Android apps with polished UX, push notifications, in-app purchases, and analytics that drive retention and growth.",
+        "icon": "Smartphone"
+      },
+      {
+        "title": "Cross-Platform Development",
+        "description": "Single codebase deployments with React Native or Flutter — shared logic, native performance, and faster time to market on both platforms.",
+        "icon": "Layers"
+      },
+      {
+        "title": "Offline-First Architecture",
+        "description": "Apps that work without connectivity and sync seamlessly when back online — critical for field teams, healthcare, and logistics.",
+        "icon": "WifiOff"
+      },
+      {
+        "title": "Mobile Backend & APIs",
+        "description": "Scalable backend services, real-time sync engines, and API layers purpose-built for mobile clients with low latency and efficient data transfer.",
+        "icon": "Server"
+      },
+      {
+        "title": "App Modernization",
+        "description": "Upgrade legacy mobile apps to modern frameworks, improve performance, and add features without rebuilding from scratch.",
+        "icon": "RefreshCw"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "From workflow discovery to App Store launch.",
+    "description": "Our mobile development process prioritizes user adoption and production reliability at every stage.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Workflow Discovery",
+        "description": "We shadow users, map daily tasks, and identify the workflows where mobile creates the most value — before writing a single line of code."
+      },
+      {
+        "number": "02",
+        "title": "UX Design & Prototyping",
+        "description": "Interactive prototypes validated with real users ensure the app solves their problems intuitively — not just impresses in a demo."
+      },
+      {
+        "number": "03",
+        "title": "Agile Development",
+        "description": "Two-week sprints with TestFlight and internal distribution builds so stakeholders see progress on real devices throughout development."
+      },
+      {
+        "number": "04",
+        "title": "Quality Assurance",
+        "description": "Device lab testing across iOS and Android versions, automated test suites, performance profiling, and security review before launch."
+      },
+      {
+        "number": "05",
+        "title": "Launch & Iteration",
+        "description": "App Store submission, phased rollout, analytics instrumentation, and rapid iteration based on real usage data and user feedback."
+      }
+    ]
+  },
+  "tech": {
+    "eyebrow": "Technology",
+    "title": "Mobile stack we build with.",
+    "description": "We choose frameworks and tools based on your performance requirements, team skills, and long-term maintenance needs.",
+    "items": [
+      {
+        "name": "React Native",
+        "logo": "/assets/techs/mobile/reactjs.svg"
+      },
+      {
+        "name": "Flutter",
+        "logo": "/assets/techs/mobile/flutter.svg"
+      },
+      {
+        "name": "Swift",
+        "logo": "/assets/techs/mobile/swift.svg"
+      },
+      {
+        "name": "Kotlin",
+        "logo": "/assets/techs/mobile/kotlin.svg"
+      },
+      {
+        "name": "Dart",
+        "logo": "/assets/techs/mobile/dart.svg"
+      },
+      {
+        "name": "Android Studio",
+        "logo": "/assets/techs/mobile/androidstudio.svg"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "title": "Common questions about mobile development.",
+    "items": [
+      {
+        "question": "Should we build native or cross-platform?",
+        "answer": "For most business applications, React Native or Flutter delivers native-quality performance with a single codebase and faster delivery. We recommend native Swift/Kotlin only when you need platform-specific capabilities like advanced AR, complex background processing, or maximum performance on older devices."
+      },
+      {
+        "question": "How long does a typical mobile app take to build?",
+        "answer": "A focused MVP with core workflows typically takes 12–16 weeks. Enterprise apps with offline sync, compliance requirements, and backend integration may take 20–28 weeks. We deliver incrementally so you can pilot with real users early."
+      },
+      {
+        "question": "Can you build apps that work offline?",
+        "answer": "Yes — offline-first architecture is a core capability. We design local data stores, conflict resolution strategies, and background sync engines so your app remains fully functional without connectivity."
+      },
+      {
+        "question": "Do you handle App Store submission?",
+        "answer": "We manage the full submission process for both Apple App Store and Google Play, including metadata optimization, screenshot design guidance, and navigating review requirements — including enterprise compliance documentation."
+      },
+      {
+        "question": "What about ongoing maintenance after launch?",
+        "answer": "We offer post-launch support packages covering OS updates, bug fixes, performance monitoring, and feature iteration. We also document thoroughly so your internal team can take over maintenance when ready."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Build Your Mobile App",
+    "title": "Ready to build a mobile app your users will love?",
+    "description": "Share your workflow challenges and target users. We will outline an approach focused on adoption and business impact.",
+    "primaryCta": {
+      "label": "Discuss Your App",
+      "path": "/contact"
+    },
+    "secondaryCta": {
+      "label": "View Mobile Case Studies",
+      "path": "/case-studies"
+    }
+  },
+  "relatedCaseStudyIds": [
+    "healthcare-mobile-platform"
+  ],
+  "relatedBlogIds": [
+    "mobile-first-enterprise",
+    "security-by-design"
+  ]
+}

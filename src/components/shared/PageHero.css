@@ -1,0 +1,107 @@
+.page-hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 20%),
+    radial-gradient(circle at 85% 18%, rgba(139, 92, 246, 0.18), transparent 18%),
+    linear-gradient(180deg, #07111f 0%, #0d1a2e 62%, #101f36 100%);
+}
+
+.page-hero__grid {
+  display: grid;
+  min-height: clamp(520px, 78vh, 760px);
+  align-items: stretch;
+}
+
+.page-hero__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8.5rem 1.25rem 4rem;
+}
+
+.page-hero__media {
+  position: relative;
+  min-height: 280px;
+}
+
+.page-hero__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(120deg, rgba(7, 17, 31, 0.94) 0%, rgba(7, 17, 31, 0.58) 50%, rgba(56, 189, 248, 0.16) 100%),
+    linear-gradient(to top, rgba(7, 17, 31, 0.6), transparent 42%);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.page-hero__overlay--soft {
+  background:
+    linear-gradient(105deg, rgba(7, 17, 31, 0.88) 8%, rgba(20, 39, 68, 0.5) 55%, rgba(56, 189, 248, 0.24) 100%);
+  mix-blend-mode: normal;
+}
+
+.page-hero__intro {
+  position: relative;
+}
+
+.page-hero__floating {
+  position: absolute;
+  right: 3rem;
+  bottom: 3rem;
+  width: min(320px, calc(100% - 3rem));
+  z-index: 2;
+}
+
+@media (min-width: 640px) {
+  .page-hero__content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-hero__grid {
+    grid-template-columns: 1.05fr 0.95fr;
+  }
+
+  .page-hero__content {
+    padding: 9.5rem 1rem 4.5rem 2.5rem;
+  }
+
+  .page-hero__media {
+    min-height: auto;
+  }
+
+  .page-hero__overlay {
+    background:
+      linear-gradient(90deg, rgba(7, 17, 31, 0.32) 0%, rgba(7, 17, 31, 0.12) 40%, rgba(139, 92, 246, 0.18) 100%),
+      linear-gradient(to bottom, transparent 20%, rgba(7, 17, 31, 0.32));
+    mix-blend-mode: normal;
+  }
+}
+
+@media (max-width: 1023px) {
+  .page-hero__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-hero__media {
+    position: absolute;
+    inset: 0;
+  }
+
+  .page-hero__content {
+    min-height: clamp(420px, 68vh, 620px);
+  }
+}

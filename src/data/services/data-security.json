@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Data Security Services | Forgeone",
+    "description": "Forgeone embeds data security into your software from architecture through deployment — encryption, access controls, compliance frameworks, and DevSecOps practices."
+  },
+  "slug": "data-security",
+  "name": "Data Security",
+  "hero": {
+    "eyebrow": "Data Security",
+    "title": "Security built in from day one — not bolted on before launch.",
+    "subtitle": "We help business leaders protect sensitive data, meet compliance requirements, and build security practices that enable innovation instead of blocking it.",
+    "image": "/assets/cybersecurity.jpg"
+  },
+  "overview": {
+    "eyebrow": "Overview",
+    "title": "Security that protects your business and unlocks enterprise sales.",
+    "description": "Security cannot be an afterthought. Teams that treat it as a pre-launch checkbox often discover architectural vulnerabilities too late — during audits, penetration tests, or worse, after a breach. Forgeone embeds data protection, access controls, and compliance into your development process from sprint one. We help you meet SOC 2, HIPAA, GDPR, and PCI requirements while building systems your engineering team can maintain and your sales team can confidently sell to enterprise customers.",
+    "highlights": [
+      "Security architecture review and threat modeling",
+      "Encryption at rest and in transit for sensitive data",
+      "Role-based access control and identity management",
+      "Compliance readiness for SOC 2, HIPAA, GDPR, and PCI DSS",
+      "DevSecOps integration — automated scanning in CI/CD pipelines"
+    ]
+  },
+  "offerings": {
+    "eyebrow": "What We Deliver",
+    "title": "Security capabilities across the software lifecycle.",
+    "description": "From architecture to operations, we build security practices that protect your data and satisfy your compliance obligations.",
+    "items": [
+      {
+        "title": "Security Architecture",
+        "description": "Threat modeling, security design reviews, and architecture patterns that protect data and systems from the foundation up.",
+        "icon": "Shield"
+      },
+      {
+        "title": "Data Encryption & Protection",
+        "description": "Encryption at rest and in transit, key management, data masking, and tokenization for sensitive information across your stack.",
+        "icon": "Lock"
+      },
+      {
+        "title": "Identity & Access Management",
+        "description": "Role-based access controls, multi-factor authentication, SSO integration, and least-privilege policies that limit exposure.",
+        "icon": "KeyRound"
+      },
+      {
+        "title": "Compliance Readiness",
+        "description": "SOC 2, HIPAA, GDPR, and PCI DSS compliance frameworks — gap assessments, remediation plans, and audit preparation support.",
+        "icon": "FileCheck"
+      },
+      {
+        "title": "Penetration Testing",
+        "description": "Application and infrastructure penetration testing that identifies vulnerabilities before attackers do — with actionable remediation guidance.",
+        "icon": "Bug"
+      },
+      {
+        "title": "DevSecOps Integration",
+        "description": "Automated vulnerability scanning, dependency auditing, and security gates in CI/CD pipelines that catch issues before production.",
+        "icon": "ShieldAlert"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "Security embedded at every stage.",
+    "description": "We integrate security into your development workflow — not as a blocker, but as a foundational practice that accelerates enterprise readiness.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Security Assessment",
+        "description": "We evaluate your current security posture, data classification, compliance requirements, and threat landscape to identify priorities."
+      },
+      {
+        "number": "02",
+        "title": "Threat Modeling & Architecture",
+        "description": "Structured threat modeling sessions that identify attack vectors early — shaping architecture decisions before code is written."
+      },
+      {
+        "number": "03",
+        "title": "Implementation & Hardening",
+        "description": "Encryption, access controls, audit logging, and security configurations implemented and validated across your application stack."
+      },
+      {
+        "number": "04",
+        "title": "Testing & Validation",
+        "description": "Penetration testing, vulnerability scanning, and compliance checklist validation to confirm security controls work as designed."
+      },
+      {
+        "number": "05",
+        "title": "Documentation & Compliance",
+        "description": "Security policies, incident response runbooks, and compliance documentation that satisfy auditors and enable your team to operate securely."
+      }
+    ]
+  },
+  "tech": {
+    "eyebrow": "Technology",
+    "title": "Security tools and frameworks.",
+    "description": "We work with proven security tools that integrate into modern development and cloud infrastructure workflows.",
+    "items": [
+      {
+        "name": "Auth0",
+        "logo": "/assets/techs/authentication/auth0.svg"
+      },
+      {
+        "name": "Okta",
+        "logo": "/assets/techs/authentication/okta.svg"
+      },
+      {
+        "name": "Cloudflare",
+        "logo": "/assets/techs/authentication/cloudflare.svg"
+      },
+      {
+        "name": "JWT",
+        "logo": "/assets/techs/authentication/jsonwebtokens.svg"
+      },
+      {
+        "name": "Azure",
+        "logo": "/assets/techs/clouddevops/azure.svg"
+      },
+      {
+        "name": "Google Cloud",
+        "logo": "/assets/techs/clouddevops/google-cloud.svg"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "title": "Common questions about data security.",
+    "items": [
+      {
+        "question": "When should we start thinking about security?",
+        "answer": "From day one. Security decisions made during architecture — data classification, access models, encryption strategy — are exponentially cheaper than retrofitting them before an audit or after an incident."
+      },
+      {
+        "question": "Can you help us achieve SOC 2 or HIPAA compliance?",
+        "answer": "Yes. We conduct gap assessments against your target framework, implement required controls, prepare documentation, and support you through the audit process. We have guided clients through SOC 2 Type II and HIPAA compliance successfully."
+      },
+      {
+        "question": "Does security slow down development?",
+        "answer": "Not when done correctly. DevSecOps practices — automated scanning, pre-approved security patterns, and threat modeling during design — catch issues early when they are cheap to fix. Security becomes a enabler of faster enterprise sales, not a development bottleneck."
+      },
+      {
+        "question": "Do you perform penetration testing?",
+        "answer": "Yes. We conduct application and infrastructure penetration tests with detailed findings reports and prioritized remediation guidance. We also help your team fix identified vulnerabilities and retest to confirm resolution."
+      },
+      {
+        "question": "How do you handle security for cloud environments?",
+        "answer": "We implement cloud security best practices: IAM policies, network segmentation, encryption, secrets management, and logging. We follow the shared responsibility model and ensure your team understands which security controls are your responsibility versus the cloud provider's."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Protect Your Data",
+    "title": "Ready to build security into your product roadmap?",
+    "description": "Tell us about your compliance requirements and security concerns. We will outline a practical path forward.",
+    "primaryCta": {
+      "label": "Talk to a Security Expert",
+      "path": "/contact"
+    },
+    "secondaryCta": {
+      "label": "View Case Studies",
+      "path": "/case-studies"
+    }
+  },
+  "relatedCaseStudyIds": [
+    "healthcare-mobile-platform",
+    "fintech-cloud-migration"
+  ],
+  "relatedBlogIds": [
+    "security-by-design",
+    "devops-without-drama"
+  ]
+}

@@ -1,0 +1,618 @@
+{
+  "meta": {
+    "title": "Case Studies | Forgeone IT Solutions",
+    "description": "See how Forgeone helps companies modernize platforms, launch AI products, and scale engineering teams — with measurable results."
+  },
+  "featuredId": "fintech-cloud-migration",
+  "categories": [
+    "Financial Services",
+    "Healthcare",
+    "Retail & E-Commerce",
+    "SaaS & Technology",
+    "Supply Chain & Logistics",
+    "Enterprise Software"
+  ],
+  "hero": {
+    "eyebrow": "Client Success",
+    "title": "Results our clients can measure.",
+    "subtitle": "Every engagement is different, but the pattern is consistent: clear goals, disciplined execution, and software that performs long after launch.",
+    "image": "/assets/about2.webp"
+  },
+  "studies": [
+    {
+      "id": "fintech-cloud-migration",
+      "slug": "fintech-cloud-migration",
+      "title": "Cloud Migration for a Series B Fintech Platform",
+      "client": "PulsePay",
+      "industry": "Financial Services",
+      "excerpt": "PulsePay needed to move off aging on-premise infrastructure without disrupting payment processing for 2 million active users. Forgeone delivered a phased AWS migration that cut infrastructure costs by 45%, doubled deployment frequency, and maintained 99.97% uptime throughout the transition — with zero data loss incidents.",
+      "challenge": "PulsePay's monolithic payment platform ran on-premises with manual deployment processes that took days and caused frequent downtime during releases. Regulatory requirements added complexity — every migration step needed audit trails, zero data loss guarantees, and rollback capability. The engineering team was stretched thin maintaining the legacy system while the business demanded new features for enterprise clients.",
+      "solution": "Forgeone designed a strangler-fig migration strategy, starting with non-critical services and progressively moving payment processing components to AWS. We containerized applications with Docker, implemented infrastructure as code with Terraform, and built CI/CD pipelines that reduced deploy time from days to under 30 minutes. A dedicated observability stack gave the team real-time visibility into system health throughout the transition.",
+      "results": [
+        {
+          "metric": "45%",
+          "label": "Reduction in infrastructure costs"
+        },
+        {
+          "metric": "2x",
+          "label": "Increase in deployment frequency"
+        },
+        {
+          "metric": "99.97%",
+          "label": "Uptime maintained during migration"
+        },
+        {
+          "metric": "Zero",
+          "label": "Data loss incidents"
+        }
+      ],
+      "services": [
+        "Cloud & DevOps",
+        "Custom Software Development"
+      ],
+      "image": "/assets/fintech.jpg",
+      "content": [
+        "PulsePay came to Forgeone at an inflection point. Their payment platform had powered rapid growth, but the infrastructure was becoming a bottleneck. Enterprise clients were asking for SLAs the current system could not guarantee, and every release carried unacceptable risk.",
+        "We began with a four-week discovery phase: mapping service dependencies, identifying data flows subject to PCI compliance, and defining migration boundaries that would allow incremental progress without big-bang cutover risk.",
+        "The first migration wave moved reporting, analytics, and internal admin tools to AWS — low-risk services that let the team validate networking, security controls, and deployment pipelines before touching payment processing.",
+        "By month six, the core payment engine ran on AWS with auto-scaling, blue-green deployments, and comprehensive monitoring. PulsePay's engineering team now ships features weekly instead of monthly, and the infrastructure bill dropped nearly in half.",
+        "The migration became a case study their sales team uses to win enterprise deals. Prospects who previously questioned PulsePay's operational maturity now receive audit-ready documentation of their cloud architecture and compliance controls.",
+        "Forgeone stayed engaged for three months post-cutover to support the internal team's transition to self-sufficient operations, including runbook documentation, on-call training, and cost optimization reviews that identified an additional 12% savings."
+      ],
+      "sections": [
+        {
+          "heading": "Challenge",
+          "paragraphs": [
+            "PulsePay's on-premise infrastructure could not scale with transaction volume growth. Manual deployments took three to five days, and each release window carried downtime risk that enterprise clients would not tolerate.",
+            "PCI compliance requirements meant every migration step needed documented audit trails, encrypted data transit, and tested rollback procedures. The internal team of twelve engineers was fully consumed by maintenance, leaving no capacity for the cloud migration the business urgently needed."
+          ]
+        },
+        {
+          "heading": "Solution",
+          "paragraphs": [
+            "Forgeone implemented a strangler-fig migration strategy across four waves over eight months. Non-critical services migrated first, validating AWS networking, IAM policies, and CI/CD pipelines before payment processing components moved.",
+            "Infrastructure as code with Terraform ensured reproducible environments. Docker containerization standardized deployments across services. A unified observability stack with structured logging, metrics, and distributed tracing gave engineers real-time visibility throughout the transition."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "Infrastructure costs dropped 45% through right-sized instances and auto-scaling. Deployment frequency doubled from bi-weekly to weekly releases with under 30-minute deploy times.",
+            "The platform maintained 99.97% uptime during the entire migration period with zero data loss incidents. PulsePay's sales team now closes enterprise deals faster by demonstrating cloud-native operational maturity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "healthcare-mobile-platform",
+      "slug": "healthcare-mobile-platform",
+      "title": "HIPAA-Compliant Mobile Platform for Care Coordination",
+      "client": "Kinetic Health",
+      "industry": "Healthcare",
+      "excerpt": "Kinetic Health needed a mobile platform that let care teams coordinate patient visits, share clinical notes, and manage schedules — all while meeting HIPAA requirements. Forgeone delivered iOS and Android apps with offline-first architecture, achieving 85% field staff adoption within 60 days and a 40% reduction in documentation time.",
+      "challenge": "Kinetic Health's care coordinators relied on phone calls, text messages, and paper forms to manage home visits across a distributed team. Information was siloed, visit documentation was inconsistent, and compliance officers had no audit trail. Previous attempts at a mobile solution failed because they prioritized feature breadth over the core workflows coordinators used daily.",
+      "solution": "Forgeone took a workflow-first approach, shadowing care coordinators to identify the three tasks that consumed most of their day: scheduling visits, documenting patient interactions, and communicating with the clinical team. We built React Native apps with offline-first architecture so coordinators could work in areas with poor connectivity. End-to-end encryption, role-based access controls, and comprehensive audit logging satisfied HIPAA requirements from day one.",
+      "results": [
+        {
+          "metric": "85%",
+          "label": "Field staff adoption in 60 days"
+        },
+        {
+          "metric": "40%",
+          "label": "Reduction in documentation time"
+        },
+        {
+          "metric": "100%",
+          "label": "HIPAA audit compliance"
+        },
+        {
+          "metric": "3.2 hrs",
+          "label": "Average daily time saved per coordinator"
+        }
+      ],
+      "services": [
+        "Mobile App Development",
+        "Data Security",
+        "QA & Testing"
+      ],
+      "image": "/assets/healthcare.jpg",
+      "content": [
+        "Healthcare mobile is unforgiving. Users are busy clinicians, not tech enthusiasts. Compliance requirements are non-negotiable. And failed adoption means patient care suffers. Kinetic Health understood this — which is why they chose a partner who would narrow scope rather than expand it.",
+        "Our discovery process included ride-alongs with care coordinators, interviews with compliance officers, and workflow mapping sessions with clinical leadership. The result was a focused product spec: three core flows, offline support, and a sync engine that reconciled data when connectivity returned.",
+        "Security was embedded from architecture through deployment. PHI was encrypted at rest and in transit, access was scoped to role and patient assignment, and every data access event was logged for audit. We ran penetration testing and compliance review before any user saw the app.",
+        "Launch was phased: a pilot with 20 coordinators in one region, rapid iteration based on feedback, then rollout to the full field team. Adoption exceeded expectations because the app solved real daily pain — not because leadership mandated it.",
+        "Coordinators reported saving an average of 3.2 hours per day on documentation and scheduling. Clinical leadership gained real-time visibility into visit completion rates and care plan adherence across regions for the first time.",
+        "Six months post-launch, Kinetic Health expanded the platform to include medication reconciliation workflows — built on the same architecture and security foundation, delivered in eight weeks because the core platform was designed for extension."
+      ],
+      "sections": [
+        {
+          "heading": "Challenge",
+          "paragraphs": [
+            "Care coordinators managed home visits through phone calls, texts, and paper forms — creating information silos, inconsistent documentation, and zero audit trail for compliance officers.",
+            "Two previous mobile initiatives failed because they attempted to replicate desktop EHR functionality on mobile. Field staff abandoned both apps within weeks due to complexity and poor offline performance."
+          ]
+        },
+        {
+          "heading": "Solution",
+          "paragraphs": [
+            "Forgeone shadowed coordinators in the field to identify three core daily workflows: visit scheduling, patient interaction documentation, and clinical team communication. Everything else was deferred.",
+            "React Native apps with offline-first architecture, end-to-end encryption, role-based access controls, and comprehensive audit logging met HIPAA requirements from architecture through deployment."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "85% of field staff adopted the app within 60 days — driven by genuine workflow improvement, not top-down mandates. Documentation time dropped 40%, saving coordinators an average of 3.2 hours daily.",
+            "The platform passed HIPAA audit with 100% compliance. Kinetic Health expanded to medication reconciliation workflows six months later, delivered in eight weeks on the existing foundation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retail-ai-recommendation",
+      "slug": "retail-ai-recommendation",
+      "title": "AI-Powered Product Recommendations for Omnichannel Retail",
+      "client": "Brightlane",
+      "industry": "Retail & E-Commerce",
+      "excerpt": "Brightlane wanted personalized product recommendations across web, mobile, and in-store kiosks but had models stuck in notebooks with no production infrastructure. Forgeone built an end-to-end ML platform that increased average order value by 18%, improved click-through rates by 23%, and delivered recommendations at under 50ms latency.",
+      "challenge": "Brightlane had years of purchase and browsing data but no way to act on it in real time. Their existing recommendation engine was rule-based, updated manually by merchandising teams, and performed inconsistently across channels. The data science team had built promising models in notebooks, but nothing was production-ready — no serving infrastructure, no A/B testing framework, no monitoring for model drift.",
+      "solution": "Forgeone built an end-to-end ML platform: a feature store fed by real-time event streams, a model training pipeline with automated retraining triggers, and a low-latency serving layer that delivered recommendations across web, mobile app, and in-store kiosk endpoints. We implemented A/B testing infrastructure so merchandising could measure impact on conversion and average order value with statistical confidence.",
+      "results": [
+        {
+          "metric": "18%",
+          "label": "Increase in average order value"
+        },
+        {
+          "metric": "23%",
+          "label": "Improvement in click-through rate"
+        },
+        {
+          "metric": "<50ms",
+          "label": "Recommendation latency at p99"
+        },
+        {
+          "metric": "4 weeks",
+          "label": "From model to production"
+        }
+      ],
+      "services": [
+        "AI & ML",
+        "Web Development",
+        "Cloud & DevOps"
+      ],
+      "image": "/assets/ecommerce.jpg",
+      "content": [
+        "Brightlane's merchandising team knew personalization would drive revenue — they had the data to prove it. The gap was operational: models lived in notebooks, infrastructure did not exist to serve predictions at scale, and nobody owned the path from experiment to production.",
+        "We started with a thin vertical slice — web product pages only, one recommendation model, one A/B test. This forced resolution of the hard problems early: event ingestion, feature computation, model serving latency, and fallback behavior when the model was unavailable.",
+        "Once the web slice proved value, we extended the same serving infrastructure to mobile and in-store kiosks. A unified feature store meant all channels drew from the same customer signals, and merchandising could tune strategies globally rather than per channel.",
+        "The system now retrains weekly on fresh data, monitors for accuracy drift, and surfaces performance dashboards to both engineering and business stakeholders. Brightlane's data science team focuses on new models — not rebuilding infrastructure for every experiment.",
+        "Merchandising teams gained self-service A/B testing capabilities, running experiments without engineering tickets. Average experiment cycle time dropped from six weeks to four days, accelerating the feedback loop between strategy and revenue impact.",
+        "The ML platform became a competitive differentiator in Brightlane's investor presentations, demonstrating operational maturity in data-driven commerce that previously existed only as aspirational slide deck content."
+      ],
+      "sections": [
+        {
+          "heading": "Challenge",
+          "paragraphs": [
+            "Brightlane's rule-based recommendation engine required manual updates by merchandising teams and performed inconsistently across web, mobile, and in-store channels. Data science had promising notebook models but no path to production.",
+            "Without serving infrastructure, A/B testing framework, or model drift monitoring, every experiment required bespoke engineering work. The gap between data science capability and operational reality was costing measurable revenue."
+          ]
+        },
+        {
+          "heading": "Solution",
+          "paragraphs": [
+            "Forgeone built an end-to-end ML platform: real-time event streams feeding a feature store, automated training pipelines with retraining triggers, and a low-latency serving layer across all channels.",
+            "A/B testing infrastructure let merchandising measure conversion and AOV impact with statistical confidence. Fallback logic ensured graceful degradation when models were unavailable."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "Average order value increased 18% and click-through rates improved 23% within the first quarter. Recommendation latency stayed under 50ms at p99 across all channels.",
+            "Experiment cycle time dropped from six weeks to four days. The data science team now focuses on new models rather than rebuilding infrastructure for each experiment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saas-platform-rebuild",
+      "slug": "saas-platform-rebuild",
+      "title": "Full-Stack Rebuild for a B2B SaaS Analytics Platform",
+      "client": "Vertex Labs",
+      "industry": "SaaS & Technology",
+      "excerpt": "Vertex Labs outgrew their MVP codebase and needed a scalable platform rebuild without losing existing customers. Forgeone delivered a modern React and Node.js architecture that supported 10x user growth, cut page load times by 75%, and achieved zero customer churn during a six-month parallel migration.",
+      "challenge": "Vertex Labs' analytics platform was built quickly to validate product-market fit — and it worked. But as enterprise clients arrived, the codebase buckled under scale. Page load times exceeded eight seconds, the database schema could not support new report types, and the engineering team spent more time fixing bugs than building features. A rewrite was necessary, but downtime or feature regression would trigger churn among their largest accounts.",
+      "solution": "Forgeone executed a parallel-build strategy: a new React frontend and Node.js API ran alongside the legacy system, sharing the same database with careful schema migration. Feature flags controlled rollout per customer tier. We rebuilt the reporting engine with a modular architecture that let product teams add new chart types without touching core infrastructure.",
+      "results": [
+        {
+          "metric": "10x",
+          "label": "Supported user growth capacity"
+        },
+        {
+          "metric": "75%",
+          "label": "Faster page load times"
+        },
+        {
+          "metric": "Zero",
+          "label": "Customer churn during migration"
+        },
+        {
+          "metric": "6 months",
+          "label": "Full platform cutover"
+        }
+      ],
+      "services": [
+        "Custom Software Development",
+        "Web Development",
+        "QA & Testing"
+      ],
+      "image": "/assets/saasdev.jpg",
+      "content": [
+        "Platform rebuilds are among the highest-risk projects in software — and among the most necessary. Vertex Labs had paying customers depending on a system that could not scale. The business could not afford a six-month feature freeze, and customers could not afford broken workflows.",
+        "Our approach prioritized continuity. The new frontend consumed the same API contracts initially, then migrated endpoint by endpoint to the new backend. Customers experienced gradual improvement — faster pages, new features — without ever seeing a 'maintenance window' banner.",
+        "Quality assurance was continuous, not a final gate. Automated regression suites ran against both systems, and a dedicated QA team validated each customer tier's workflows before flag-enabled rollout.",
+        "Six months after kickoff, the legacy system was fully retired. Vertex Labs now onboard enterprise clients without performance concerns, and their engineering team ships features at the pace their sales team demands.",
+        "The modular reporting engine let product teams launch three new chart types in the first quarter post-migration — work that previously would have required core infrastructure changes and weeks of regression testing.",
+        "Database schema migration used expand-and-contract patterns to avoid downtime. New columns and tables were added alongside legacy structures, data was backfilled incrementally, and old structures were retired only after validation confirmed parity."
+      ],
+      "sections": [
+        {
+          "heading": "Challenge",
+          "paragraphs": [
+            "Vertex Labs' MVP analytics platform validated product-market fit but buckled under enterprise scale. Page loads exceeded eight seconds, the schema could not support new report types, and engineering spent more time on bugs than features.",
+            "A full rewrite was necessary, but downtime or feature regression would trigger churn among their largest paying accounts. The business needed continuous delivery throughout the migration."
+          ]
+        },
+        {
+          "heading": "Solution",
+          "paragraphs": [
+            "Forgeone executed a parallel-build strategy with a new React frontend and Node.js API running alongside the legacy system. Feature flags controlled per-customer-tier rollout.",
+            "The reporting engine was rebuilt with modular architecture. Expand-and-contract database migrations avoided downtime while schema evolved incrementally."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "The platform now supports 10x user growth with 75% faster page loads. Zero customers churned during the six-month migration.",
+            "Product teams launched three new chart types in the first post-migration quarter — work that previously required core infrastructure changes and weeks of testing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "logistics-devops-transformation",
+      "slug": "logistics-devops-transformation",
+      "title": "DevOps Transformation for a Logistics Operations Platform",
+      "client": "Northfield Logistics",
+      "industry": "Supply Chain & Logistics",
+      "excerpt": "Northfield's operations platform suffered from monthly release cycles and four production incidents per month. Forgeone implemented CI/CD, infrastructure as code, and observability practices that reduced incidents by 60%, enabled weekly releases, and cut mean time to recovery to 15 minutes.",
+      "challenge": "Northfield's engineering team managed a complex logistics platform with manual deployment scripts, inconsistent staging environments, and no centralized logging. Production incidents averaged four per month, each requiring hours of war-room debugging. Leadership wanted faster feature delivery, but the team was afraid to deploy more often because every release felt like rolling dice.",
+      "solution": "Forgeone embedded with Northfield's engineering team to implement a full DevOps transformation. We containerized all services, built GitHub Actions pipelines for automated testing and deployment, and provisioned infrastructure with Terraform. A centralized observability stack — structured logging, metrics, and distributed tracing — gave engineers the visibility they lacked. We also established blameless postmortem practices and runbook documentation.",
+      "results": [
+        {
+          "metric": "60%",
+          "label": "Reduction in production incidents"
+        },
+        {
+          "metric": "Weekly",
+          "label": "Release cadence (from monthly)"
+        },
+        {
+          "metric": "15 min",
+          "label": "Mean time to recovery"
+        },
+        {
+          "metric": "90%",
+          "label": "Automated test coverage"
+        }
+      ],
+      "services": [
+        "Cloud & DevOps",
+        "QA & Testing"
+      ],
+      "image": "/assets/logistic.jpg",
+      "content": [
+        "Northfield did not need more developers — they needed better systems around the developers they had. Releases were manual, environments drifted, and when things broke, nobody could trace the root cause quickly.",
+        "We treated DevOps transformation as a capability-building engagement, not a tooling project. Northfield engineers paired with Forgeone specialists on every pipeline, every Terraform module, and every dashboard — so knowledge stayed when we left.",
+        "The shift was cultural as much as technical. Weekly releases became normal once automated tests caught regressions and rollbacks took minutes instead of hours. Postmortems surfaced systemic issues rather than individual mistakes.",
+        "Within four months, Northfield's team was self-sufficient: deploying confidently, diagnosing incidents quickly, and planning features instead of firefighting. The platform now supports real-time tracking updates that were previously impossible to ship safely.",
+        "Automated test coverage reached 90% across critical service paths. The QA team shifted from manual regression testing before releases to building automated suites that ran on every pull request.",
+        "Infrastructure costs stabilized despite increased deployment frequency because right-sized container orchestration eliminated over-provisioned staging environments that had been running 24/7."
+      ],
+      "sections": [
+        {
+          "heading": "Challenge",
+          "paragraphs": [
+            "Northfield's logistics platform ran on manual deployment scripts with inconsistent staging environments and no centralized logging. Production incidents averaged four per month, each requiring hours of war-room debugging.",
+            "Leadership wanted faster feature delivery, but the engineering team feared deploying more often because every release felt like rolling dice with no reliable rollback path."
+          ]
+        },
+        {
+          "heading": "Solution",
+          "paragraphs": [
+            "Forgeone embedded with the engineering team to containerize services, build GitHub Actions CI/CD pipelines, and provision infrastructure with Terraform. A centralized observability stack provided structured logging, metrics, and distributed tracing.",
+            "Blameless postmortem practices and runbook documentation complemented the technical changes. Northfield engineers paired on every pipeline and module to ensure knowledge transfer."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "Production incidents dropped 60%. Release cadence moved from monthly to weekly with 15-minute mean time to recovery. Automated test coverage reached 90%.",
+            "Within four months, the team was self-sufficient — deploying confidently, diagnosing incidents quickly, and shipping real-time tracking features that were previously too risky to attempt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enterprise-team-augmentation",
+      "slug": "enterprise-team-augmentation",
+      "title": "Engineering Team Augmentation for Enterprise Product Launch",
+      "client": "Aether Systems",
+      "industry": "Enterprise Software",
+      "excerpt": "Aether Systems needed to accelerate a critical product launch tied to a major partnership announcement but could not hire fast enough. Forgeone provided a dedicated squad of six engineers who integrated seamlessly, delivered a 98% sprint commitment rate, and helped ship three months ahead of schedule with zero post-launch critical defects.",
+      "challenge": "Aether Systems had a firm deadline for an enterprise product launch tied to a major partnership announcement. Their internal team of eight engineers was capable but stretched across maintenance and the new product simultaneously. Hiring would take months they did not have, and freelance contractors had failed to integrate in previous attempts — creating code review bottlenecks and knowledge silos.",
+      "solution": "Forgeone assembled a dedicated squad of six engineers — two backend, two frontend, one DevOps, one QA — who embedded directly into Aether's existing workflows. Same Jira board, same standups, same code review standards. We established a shared definition of done, paired on architecture decisions, and documented every significant choice so Aether's team could maintain the codebase independently after launch.",
+      "results": [
+        {
+          "metric": "3 months",
+          "label": "Ahead of original launch date"
+        },
+        {
+          "metric": "6",
+          "label": "Engineers integrated in 2 weeks"
+        },
+        {
+          "metric": "98%",
+          "label": "Sprint commitment delivery rate"
+        },
+        {
+          "metric": "Zero",
+          "label": "Post-launch critical defects"
+        }
+      ],
+      "services": [
+        "Custom Software Development",
+        "QA & Testing"
+      ],
+      "image": "/assets/enterprise_app.webp",
+      "content": [
+        "Team augmentation only works when augmented engineers are treated as team members, not ticket processors. Aether Systems understood this — they gave our squad the same access, the same accountability, and the same voice in planning as internal engineers.",
+        "Integration happened fast because we matched skills to gaps rather than sending generic full-stack developers. Backend engineers picked up Aether's Go services, frontend engineers adopted their React component library, and DevOps extended their existing AWS setup — no parallel toolchain, no competing standards.",
+        "The launch shipped three months early with zero critical defects in the first 30 days. More importantly, Aether's internal team absorbed the codebase confidently because they had been building alongside our engineers throughout — not receiving a handoff document at the end.",
+        "Three months post-launch, Aether retained two Forgeone engineers on a reduced engagement for specialized work, while the rest of the squad's knowledge lived in documentation, tests, and the internal team's expanded skill set.",
+        "Architecture decision records and comprehensive test suites created during the engagement meant Aether's team could extend the product independently. New feature development continued at the same velocity after the full squad ramped down.",
+        "The partnership announcement proceeded on schedule, with Aether demonstrating a production-ready platform to their new partner — not a demo environment held together by manual scripts and optimistic timelines."
+      ],
+      "sections": [
+        {
+          "heading": "Challenge",
+          "paragraphs": [
+            "Aether Systems faced a firm launch deadline tied to a major partnership announcement. Their eight-person engineering team was split between maintenance and new product development, and previous contractor engagements had failed due to poor integration.",
+            "Hiring full-time engineers would take months they did not have. They needed senior engineers who could embed immediately and own meaningful delivery, not process tickets in isolation."
+          ]
+        },
+        {
+          "heading": "Solution",
+          "paragraphs": [
+            "Forgeone assembled a dedicated squad of six engineers matched to Aether's skill gaps: two backend, two frontend, one DevOps, one QA. The squad embedded into existing workflows with shared tooling, standups, and code review standards.",
+            "Architecture decisions were documented in ADRs. Pairing sessions ensured knowledge transfer throughout the engagement, not just at handoff."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "The product launched three months ahead of schedule with a 98% sprint commitment delivery rate and zero critical defects in the first 30 days.",
+            "Aether's internal team continued development independently after ramp-down, supported by documentation, tests, and expanded skills built through collaborative delivery."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-checkout-rebuild",
+      "slug": "ecommerce-checkout-rebuild",
+      "title": "Checkout Rebuild That Lifted Conversion for a Mid-Market Retailer",
+      "client": "Oak & Thread",
+      "industry": "Retail & E-Commerce",
+      "excerpt": "Oak & Thread's mobile checkout abandoned 68% of carts. Forgeone rebuilt the flow with performance, payment resiliency, and clearer UX — raising conversion 27% and cutting checkout errors 41% in the first quarter.",
+      "challenge": "Oak & Thread had grown quickly on a theme-heavy storefront that could not keep up with promotions, gift cards, and multi-warehouse inventory. Mobile checkout was slow, payment failures lacked graceful recovery, and A/B testing was nearly impossible because the checkout code was tightly coupled to the legacy theme.",
+      "solution": "Forgeone isolated checkout into a dedicated React storefront module backed by a resilient payment orchestration layer. We introduced progressive profiling, address autocomplete, real-time inventory checks, and feature-flagged experiments so merchandising could test messaging without engineering tickets. Performance budgets and synthetic monitoring guarded the critical path after launch.",
+      "results": [
+        {
+          "metric": "27%",
+          "label": "Increase in checkout conversion"
+        },
+        {
+          "metric": "41%",
+          "label": "Fewer checkout payment errors"
+        },
+        {
+          "metric": "1.8s",
+          "label": "Mobile checkout interactive time"
+        },
+        {
+          "metric": "6 weeks",
+          "label": "From kickoff to first experiment"
+        }
+      ],
+      "services": [
+        "Web Development",
+        "QA & Testing",
+        "Custom Software Development"
+      ],
+      "image": "/assets/ecommerce.jpg",
+      "content": [
+        "Checkout is where revenue either materializes or evaporates. Oak & Thread knew their mobile experience was leaking sales, but previous attempts to patch the legacy theme created more fragility than lift.",
+        "We treated checkout as a product with its own roadmap, SLOs, and experiment backlog — not as a theme customization. Discovery started with session replays, funnel analytics, and interviews with customer support about the top failure modes shoppers reported.",
+        "The rebuild prioritized perceived performance and recovery paths: optimistic UI for address validation, clear retry flows for soft payment declines, and inventory messaging that prevented last-second disappointments.",
+        "Within six weeks, the first A/B test shipped. Within a quarter, conversion was up 27% and payment-related support tickets dropped sharply. Merchandising now owns experiment velocity instead of waiting on engineering for every copy change.",
+        "Forgeone documented the architecture and runbooks so Oak & Thread's internal team could extend promotions and gift-card logic independently after the engagement.",
+        "If your storefront is losing conversion in the last mile, we can help diagnose the bottlenecks and ship a focused rebuild. Contact Forgeone to discuss your funnel."
+      ],
+      "sections": [
+        {
+          "heading": "Challenge",
+          "paragraphs": [
+            "Mobile cart abandonment sat at 68%. The legacy theme could not support reliable experiments, and payment failures often left shoppers with unclear next steps.",
+            "Promotions, gift cards, and multi-warehouse inventory compounded complexity. Every seasonal campaign risked breaking checkout."
+          ]
+        },
+        {
+          "heading": "Solution",
+          "paragraphs": [
+            "Forgeone extracted checkout into a dedicated React module with payment orchestration, progressive profiling, and feature-flagged experimentation.",
+            "Performance budgets, synthetic monitors, and QA automation protected the critical path while merchandising gained self-serve testing capability."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "Checkout conversion rose 27% and payment errors fell 41% in the first quarter. Mobile time-to-interactive reached 1.8 seconds on key product-to-pay journeys.",
+            "The first experiment shipped in six weeks. Internal teams now iterate on checkout messaging without waiting for engineering tickets."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edtech-learning-platform",
+      "slug": "edtech-learning-platform",
+      "title": "Learning Platform Launch for a Growing EdTech Provider",
+      "client": "LumenPath",
+      "industry": "SaaS & Technology",
+      "excerpt": "LumenPath needed to launch a multi-tenant learning platform for institutional buyers in under five months. Forgeone delivered web and mobile experiences with SSO, content delivery, and admin tooling — securing three enterprise pilots in the first 60 days after launch.",
+      "challenge": "LumenPath had strong pedagogy and content partnerships but a fragmented tech stack: a marketing site, a prototype learner app, and no institutional admin console. Enterprise buyers required SSO, reporting, and content permissions the prototype could not support. The fundraising timeline demanded a credible platform launch, not another demo.",
+      "solution": "Forgeone built a multi-tenant platform with a React admin console, learner web app, and React Native companion for on-the-go modules. We implemented SSO, role-based content access, progress analytics, and a CMS-backed content pipeline. Cloud infrastructure on AWS with CI/CD and staging environments let the team ship weekly without freezing content production.",
+      "results": [
+        {
+          "metric": "5 months",
+          "label": "Concept to production launch"
+        },
+        {
+          "metric": "3",
+          "label": "Enterprise pilots in 60 days"
+        },
+        {
+          "metric": "Weekly",
+          "label": "Release cadence post-launch"
+        },
+        {
+          "metric": "92%",
+          "label": "Learner task completion in pilots"
+        }
+      ],
+      "services": [
+        "Custom Software Development",
+        "Mobile App Development",
+        "Cloud & DevOps"
+      ],
+      "image": "/assets/education.jpg",
+      "content": [
+        "EdTech buyers evaluate trust as carefully as they evaluate curriculum. LumenPath needed a platform that looked and behaved like a product institutions could adopt — SSO, reporting, accessibility, and reliable uptime.",
+        "We structured delivery around three personas: learners, instructors, and institutional admins. Each persona received a focused MVP surface rather than a bloated all-in-one interface.",
+        "Content operations were treated as a first-class system. Authors could publish modules through a governed pipeline with preview environments, while engineering maintained platform stability.",
+        "Launch unlocked sales conversations that the prototype never could. Three enterprise pilots started within 60 days, and feedback from those pilots shaped the next quarter's roadmap with real usage data.",
+        "Forgeone remained on a lighter retainer for two months post-launch to stabilize onboarding flows and train LumenPath's growing engineering hires.",
+        "Building an education or training product for institutional buyers? Contact Forgeone to talk through scope, timeline, and a launch plan that supports your sales cycle."
+      ],
+      "sections": [
+        {
+          "heading": "Challenge",
+          "paragraphs": [
+            "LumenPath's prototype could not satisfy enterprise requirements for SSO, permissions, and reporting. Fundraising and sales timelines demanded a production platform within five months.",
+            "Content partners needed a reliable publishing path, and learners needed a polished experience across web and mobile."
+          ]
+        },
+        {
+          "heading": "Solution",
+          "paragraphs": [
+            "Forgeone delivered a multi-tenant architecture with React admin tooling, learner web, React Native companion apps, and AWS-backed CI/CD.",
+            "SSO, RBAC, progress analytics, and a CMS-driven content pipeline made the product credible for institutional evaluation."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "The platform launched in five months and secured three enterprise pilots within 60 days. Learner task completion in pilots reached 92%.",
+            "Weekly releases continued after launch, allowing rapid iteration based on real institutional feedback."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fintech-fraud-detection",
+      "slug": "fintech-fraud-detection",
+      "title": "Real-Time Fraud Scoring for a Digital Lending Platform",
+      "client": "Nexora Credit",
+      "industry": "Financial Services",
+      "excerpt": "Nexora Credit needed real-time fraud scoring without slowing loan approvals. Forgeone built an ML-assisted decisioning service that cut fraud losses 34% while keeping p95 decision latency under 120ms.",
+      "challenge": "Manual review queues were growing faster than Nexora's underwriting team. Rule-based fraud checks generated too many false positives, frustrating good applicants, while sophisticated fraud rings still slipped through. Data science had promising models, but there was no low-latency serving path integrated with the loan application workflow.",
+      "solution": "Forgeone implemented a real-time scoring service with a feature store fed by application events, device signals, and historical outcomes. Models were deployed behind a versioned API with shadow-mode validation before cutting over. Analysts received explainability summaries and override tooling, and every decision was logged for audit and model retraining.",
+      "results": [
+        {
+          "metric": "34%",
+          "label": "Reduction in fraud losses"
+        },
+        {
+          "metric": "<120ms",
+          "label": "p95 scoring latency"
+        },
+        {
+          "metric": "22%",
+          "label": "Fewer false-positive reviews"
+        },
+        {
+          "metric": "8 weeks",
+          "label": "Shadow mode to production"
+        }
+      ],
+      "services": [
+        "AI & ML",
+        "Data Security",
+        "Custom Software Development"
+      ],
+      "image": "/assets/fintech.jpg",
+      "content": [
+        "Fraud systems fail in two ways: they miss fraud, or they punish legitimate customers. Nexora needed both precision and speed — decisions measured in milliseconds, not overnight batch jobs.",
+        "We started in shadow mode: the new model scored every application while legacy rules remained authoritative. Comparing outcomes built confidence before any customer-facing cutover.",
+        "Feature engineering focused on signals that were available at decision time — no future leakage, no features that would vanish in production. Latency budgets shaped model complexity from day one.",
+        "Analyst workflows mattered as much as model metrics. Explainability summaries and override paths kept humans in control for edge cases, and overrides fed the retraining loop.",
+        "Eight weeks after shadow launch, the model became authoritative for a growing share of traffic. Fraud losses dropped 34% while false-positive manual reviews fell 22%.",
+        "If you are evaluating real-time decisioning or ML in a regulated flow, contact Forgeone. We help you move from notebook models to audited production systems."
+      ],
+      "sections": [
+        {
+          "heading": "Challenge",
+          "paragraphs": [
+            "Rule-based fraud checks created false positives that slowed good applicants while sophisticated attacks still caused losses. Models existed in notebooks without a production serving path.",
+            "Underwriting capacity could not keep pace with manual review volume as application volume grew."
+          ]
+        },
+        {
+          "heading": "Solution",
+          "paragraphs": [
+            "Forgeone built a low-latency scoring API backed by a real-time feature store, shadow-mode validation, and analyst override tooling with full audit logging.",
+            "Security and compliance requirements shaped logging, access control, and model versioning from the first architecture review."
+          ]
+        },
+        {
+          "heading": "Results",
+          "paragraphs": [
+            "Fraud losses decreased 34% with p95 decision latency under 120ms. False-positive reviews dropped 22%, freeing underwriters for higher-value work.",
+            "Shadow mode to production took eight weeks, with continuous monitoring for drift and performance."
+          ]
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "eyebrow": "Your Project Next?",
+    "title": "Let's discuss what success looks like for you.",
+    "description": "Every case study started with a conversation about goals, constraints, and timeline. Tell us about yours — we typically respond within one business day.",
+    "primaryCta": {
+      "label": "Contact Forgeone",
+      "path": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Browse Services",
+      "path": "/services/custom-software-development"
+    }
+  }
+}

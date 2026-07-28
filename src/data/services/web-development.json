@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "Web Development Services | Forgeone",
+    "description": "Forgeone builds fast, accessible, and scalable web applications — from customer-facing products to internal dashboards that teams rely on daily."
+  },
+  "slug": "web-development",
+  "name": "Web Development",
+  "hero": {
+    "eyebrow": "Web Development",
+    "title": "Web experiences that perform under real traffic.",
+    "subtitle": "We build responsive web applications with the speed, accessibility, and scalability that modern users and business operations demand.",
+    "image": "/assets/web_application.webp"
+  },
+  "overview": {
+    "eyebrow": "Overview",
+    "title": "Modern web engineering for products and platforms.",
+    "description": "Your web application is often the first — and most frequent — touchpoint between your business and its users. Slow load times, broken mobile layouts, and inaccessible interfaces directly impact conversion, retention, and brand perception. Forgeone builds web applications with performance, accessibility, and maintainability as foundational requirements. Whether you need a customer-facing SaaS product, an e-commerce platform, or an internal operations dashboard, we deliver web experiences that work reliably at scale.",
+    "highlights": [
+      "React, Next.js, and Vue.js frontend development",
+      "Server-side rendering and static generation for SEO and performance",
+      "Responsive design optimized for desktop, tablet, and mobile browsers",
+      "WCAG accessibility compliance built into every interface",
+      "Core Web Vitals optimization for search ranking and user experience"
+    ]
+  },
+  "offerings": {
+    "eyebrow": "What We Build",
+    "title": "Web solutions for every business need.",
+    "description": "From marketing sites to complex SaaS dashboards, we deliver web applications that users trust and teams can maintain.",
+    "items": [
+      {
+        "title": "SaaS Web Applications",
+        "description": "Multi-tenant dashboards, admin panels, and customer portals with role-based access, real-time updates, and subscription management.",
+        "icon": "Monitor"
+      },
+      {
+        "title": "E-Commerce Platforms",
+        "description": "Online stores with product catalogs, checkout flows, payment integration, inventory management, and order tracking.",
+        "icon": "ShoppingCart"
+      },
+      {
+        "title": "Progressive Web Apps",
+        "description": "Web applications with app-like experiences — offline support, push notifications, and home screen installation without app store friction.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Internal Dashboards",
+        "description": "Operations dashboards, reporting tools, and admin interfaces that give teams visibility and control over business processes.",
+        "icon": "BarChart3"
+      },
+      {
+        "title": "Marketing & Content Sites",
+        "description": "High-performance marketing websites with CMS integration, SEO optimization, and conversion-focused design.",
+        "icon": "FileText"
+      },
+      {
+        "title": "Web App Modernization",
+        "description": "Upgrade legacy web applications to modern frameworks — improving performance, maintainability, and user experience without full rewrites.",
+        "icon": "Zap"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "Design-first development with continuous delivery.",
+    "description": "We combine UX rigor with engineering best practices to ship web applications that perform from launch day.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Requirements & UX Design",
+        "description": "User flows, wireframes, and design systems validated with stakeholders before development — ensuring alignment on scope and experience."
+      },
+      {
+        "number": "02",
+        "title": "Frontend Architecture",
+        "description": "Component libraries, state management patterns, and API integration strategies designed for performance and long-term maintainability."
+      },
+      {
+        "number": "03",
+        "title": "Agile Development",
+        "description": "Two-week sprints with staging deployments after every sprint. Stakeholders review working software, not slide decks."
+      },
+      {
+        "number": "04",
+        "title": "Performance & Accessibility QA",
+        "description": "Lighthouse audits, cross-browser testing, screen reader validation, and load testing to ensure production readiness."
+      },
+      {
+        "number": "05",
+        "title": "Launch & Optimization",
+        "description": "Production deployment with CDN configuration, monitoring, analytics instrumentation, and ongoing performance optimization."
+      }
+    ]
+  },
+  "tech": {
+    "eyebrow": "Technology",
+    "title": "Modern web stack expertise.",
+    "description": "We build with proven frameworks and tools that balance developer productivity with production performance.",
+    "items": [
+      {
+        "name": "React",
+        "logo": "/assets/techs/frontend/react.svg"
+      },
+      {
+        "name": "Next.js",
+        "logo": "/assets/techs/frontend/nextjs.svg"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "/assets/techs/frontend/typescript.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "logo": "/assets/techs/frontend/TailwindCSS.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "/assets/techs/frontend/javascript.svg"
+      },
+      {
+        "name": "Vercel",
+        "logo": "/assets/techs/clouddevops/vercel.svg"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "title": "Common questions about web development.",
+    "items": [
+      {
+        "question": "Do you build both frontend and backend?",
+        "answer": "Yes. We deliver full-stack web applications — frontend interfaces, API layers, database design, and deployment infrastructure. For clients with existing backends, we integrate seamlessly with your current API contracts."
+      },
+      {
+        "question": "How do you ensure web applications are fast?",
+        "answer": "Performance is engineered, not optimized later. We use server-side rendering, code splitting, image optimization, CDN delivery, and caching strategies from the start. Every project includes Lighthouse performance targets in the definition of done."
+      },
+      {
+        "question": "Can you rebuild our existing website without downtime?",
+        "answer": "Yes. We use parallel-build strategies — new frontend consuming existing APIs initially, then migrating backend endpoints incrementally. Users see gradual improvement without service interruption."
+      },
+      {
+        "question": "Do you handle SEO and accessibility?",
+        "answer": "Both are built in, not bolted on. Semantic HTML, meta tag management, structured data, and WCAG 2.1 AA compliance are standard on every project. We validate with automated tools and manual testing."
+      },
+      {
+        "question": "What CMS options do you support?",
+        "answer": "We integrate with headless CMS platforms like Contentful, Sanity, and Strapi — as well as WordPress in headless mode. The choice depends on your content workflow, team skills, and scalability requirements."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Build Your Web App",
+    "title": "Ready to launch a web experience that converts?",
+    "description": "Tell us about your users and business goals. We will recommend an approach that balances speed, quality, and scalability.",
+    "primaryCta": {
+      "label": "Discuss Your Project",
+      "path": "/contact"
+    },
+    "secondaryCta": {
+      "label": "View Case Studies",
+      "path": "/case-studies"
+    }
+  },
+  "relatedCaseStudyIds": [
+    "saas-platform-rebuild",
+    "retail-ai-recommendation"
+  ],
+  "relatedBlogIds": [
+    "modernizing-legacy-platforms",
+    "ai-that-ships"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "Contact Us | Forgeone IT Solutions",
+    "description": "Get in touch with Forgeone to discuss your next software project, AI initiative, or team augmentation need. We respond within one business day."
+  },
+  "hero": {
+    "eyebrow": "Contact Us",
+    "title": "Let's talk about what you're building.",
+    "subtitle": "Tell us about your goals, timeline, and constraints. A member of our team will respond within one business day with thoughtful next steps — not a generic sales pitch.",
+    "image": "/assets/contact.jpg"
+  },
+  "aside": {
+    "eyebrow": "Why reach out",
+    "title": "A clear conversation. A practical next step.",
+    "description": "Share your goals and constraints — we will respond with a point of view, relevant experience, and a recommended path forward.",
+    "image": "/assets/contact.jpg",
+    "points": [
+      {
+        "title": "Response within one business day",
+        "description": "Every inquiry is reviewed by a senior team member who can speak to scope, timeline, and fit."
+      },
+      {
+        "title": "No generic sales pitch",
+        "description": "We ask clarifying questions, share relevant case studies, and outline a practical first engagement."
+      },
+      {
+        "title": "Built for decision-makers",
+        "description": "Whether you need a discovery workshop, a build squad, or an architecture review — we meet you where you are."
+      }
+    ]
+  },
+  "form": {
+    "title": "Send us a message",
+    "description": "Share a few details about your project and we will connect you with the right person on our team.",
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Jane Smith"
+      },
+      "email": {
+        "label": "Work Email",
+        "placeholder": "jane@company.com"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "+1 (555) 000-0000"
+      },
+      "subject": {
+        "label": "How can we help?",
+        "placeholder": "Select a topic",
+        "options": [
+          "General Inquiry",
+          "AI & ML",
+          "Mobile App Development",
+          "Custom Software Development",
+          "Web Development",
+          "Cloud & DevOps",
+          "QA & Testing",
+          "Data Security",
+          "Partnership"
+        ]
+      },
+      "message": {
+        "label": "Project Details",
+        "placeholder": "Tell us about your goals, timeline, and any technical context that would help us prepare for the conversation."
+      }
+    },
+    "submitLabel": "Send Message",
+    "success": {
+      "title": "Message received",
+      "message": "Thank you for reaching out. A member of our team will review your message and respond within one business day."
+    }
+  }
+}

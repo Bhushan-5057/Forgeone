@@ -1,0 +1,10 @@
+{
+  "phone": {
+    "display": "+1 (415) 555-0142",
+    "href": "tel:+14155550142"
+  },
+  "callCta": {
+    "stripText": "Call us now for a free consultation",
+    "floatingLabel": "Call Now"
+  }
+}

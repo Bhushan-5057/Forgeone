@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "AI & Machine Learning Services | Forgeone",
+    "description": "Forgeone builds production-ready AI and ML systems — from LLM integration and predictive analytics to MLOps pipelines that keep models accurate after launch."
+  },
+  "slug": "ai-ml",
+  "name": "AI & ML",
+  "hero": {
+    "eyebrow": "AI & Machine Learning",
+    "title": "AI that works in production — not just in demos.",
+    "subtitle": "We help business leaders move from AI experiments to reliable systems that improve decisions, automate workflows, and create measurable competitive advantage.",
+    "image": "/assets/aiml.webp"
+  },
+  "overview": {
+    "eyebrow": "Overview",
+    "title": "From proof of concept to production-grade intelligence.",
+    "description": "Most organizations stall after the AI demo. Models work on sample data but fail under real-world conditions — drifting accuracy, latency problems, and governance gaps that erode trust. Forgeone closes that gap with end-to-end AI engineering: problem framing, data pipelines, model development, deployment infrastructure, and ongoing monitoring. We build AI systems your business can depend on, audit, and iterate on confidently.",
+    "highlights": [
+      "LLM integration and custom AI agents for enterprise workflows",
+      "Predictive analytics and recommendation engines at scale",
+      "MLOps pipelines with automated retraining and drift detection",
+      "AI governance frameworks aligned with compliance requirements",
+      "Thin vertical slices that prove value before scaling scope"
+    ]
+  },
+  "offerings": {
+    "eyebrow": "What We Build",
+    "title": "AI capabilities tailored to your business context.",
+    "description": "Every AI initiative starts with the decision it supports — not the technology stack. We design solutions around your data, users, and governance requirements.",
+    "items": [
+      {
+        "title": "LLM Integration & AI Agents",
+        "description": "Embed large language models into your products and internal tools — with retrieval-augmented generation, guardrails, and human-in-the-loop workflows that keep outputs trustworthy.",
+        "icon": "Brain"
+      },
+      {
+        "title": "Predictive Analytics",
+        "description": "Build models that forecast demand, identify churn risk, detect anomalies, and surface insights from structured and unstructured data sources.",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Recommendation Systems",
+        "description": "Personalize user experiences with real-time recommendation engines that increase engagement, conversion, and average order value across web and mobile.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Computer Vision",
+        "description": "Automate visual inspection, document processing, and image classification with custom vision models trained on your domain-specific data.",
+        "icon": "Eye"
+      },
+      {
+        "title": "Natural Language Processing",
+        "description": "Extract meaning from text — sentiment analysis, entity recognition, document classification, and intelligent search that understands context.",
+        "icon": "MessageSquare"
+      },
+      {
+        "title": "MLOps & Model Operations",
+        "description": "Deploy, monitor, and maintain models in production with automated pipelines, version control, A/B testing, and drift detection built in.",
+        "icon": "Workflow"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "Structured for speed and accountability.",
+    "description": "We follow a proven framework that moves AI initiatives from concept to production without the usual stalls and surprises.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery & Problem Framing",
+        "description": "We define the business decision your AI system supports, success metrics, failure modes, and governance requirements before writing any code."
+      },
+      {
+        "number": "02",
+        "title": "Data Assessment & Pipeline Design",
+        "description": "We evaluate data quality, availability, and freshness — then design ingestion, feature engineering, and storage pipelines that feed reliable inputs."
+      },
+      {
+        "number": "03",
+        "title": "Model Development & Validation",
+        "description": "We train, evaluate, and iterate on models with rigorous testing — including bias analysis, edge case handling, and performance benchmarking."
+      },
+      {
+        "number": "04",
+        "title": "Production Deployment",
+        "description": "We build serving infrastructure with low-latency endpoints, fallback behavior, and integration into your existing product and data systems."
+      },
+      {
+        "number": "05",
+        "title": "Monitor, Iterate & Scale",
+        "description": "We implement monitoring for accuracy drift, latency, and cost — with automated retraining triggers and dashboards for business and engineering stakeholders."
+      }
+    ]
+  },
+  "tech": {
+    "eyebrow": "Technology",
+    "title": "Tools we use to build production AI.",
+    "description": "We select technologies based on your requirements, team capabilities, and operational constraints — not vendor preferences.",
+    "items": [
+      {
+        "name": "OpenAI",
+        "logo": "/assets/techs/aiml/openai.svg"
+      },
+      {
+        "name": "Claude",
+        "logo": "/assets/techs/aiml/claude.svg"
+      },
+      {
+        "name": "Gemini",
+        "logo": "/assets/techs/aiml/gemini.svg"
+      },
+      {
+        "name": "LangChain",
+        "logo": "/assets/techs/aiml/Langchain.svg"
+      },
+      {
+        "name": "TensorFlow",
+        "logo": "/assets/techs/database/tensorflow.svg"
+      },
+      {
+        "name": "Keras",
+        "logo": "/assets/techs/aiml/Keras.svg"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "FAQ",
+    "title": "Common questions about AI engagements.",
+    "items": [
+      {
+        "question": "How long does it take to get an AI model into production?",
+        "answer": "A focused vertical slice — one use case, one model, full pipeline — typically takes 8–12 weeks. Complex multi-model systems or those requiring extensive data preparation may take longer. We always deliver incremental value rather than waiting for a big-bang launch."
+      },
+      {
+        "question": "Do we need a large dataset to start?",
+        "answer": "Not necessarily. We assess your data during discovery and recommend approaches accordingly — transfer learning, synthetic data augmentation, or starting with rule-based baselines while data accumulates. The key is data quality and relevance, not just volume."
+      },
+      {
+        "question": "How do you handle AI governance and compliance?",
+        "answer": "We build governance into the architecture: model versioning, audit trails, bias testing, access controls, and documentation that satisfies SOC 2, HIPAA, and GDPR requirements. Governance is a feature, not an afterthought."
+      },
+      {
+        "question": "Can you integrate AI into our existing product?",
+        "answer": "Yes. Most of our AI work extends existing platforms rather than building standalone systems. We design APIs and serving layers that integrate cleanly with your current frontend, backend, and data infrastructure."
+      },
+      {
+        "question": "What happens after the model is deployed?",
+        "answer": "We set up monitoring, retraining pipelines, and runbooks so your team can operate the system independently. We also offer ongoing MLOps support for teams that prefer a managed approach to model maintenance."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Ready to Ship AI?",
+    "title": "Let's move your AI initiative from demo to production.",
+    "description": "Tell us about the decision you want AI to support. We will share relevant experience and outline a path forward.",
+    "primaryCta": {
+      "label": "Talk to an AI Expert",
+      "path": "/contact"
+    },
+    "secondaryCta": {
+      "label": "View AI Case Studies",
+      "path": "/case-studies"
+    }
+  },
+  "relatedCaseStudyIds": [
+    "retail-ai-recommendation"
+  ],
+  "relatedBlogIds": [
+    "ai-that-ships",
+    "modernizing-legacy-platforms"
+  ]
+}

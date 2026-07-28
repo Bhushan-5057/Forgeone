@@ -1,0 +1,264 @@
+﻿{
+  "meta": {
+    "title": "Forgeone | IT Solutions That Scale",
+    "description": "Forgeone builds AI, cloud, and custom software solutions that help ambitious companies ship faster and operate with confidence."
+  },
+  "hero": {
+    "eyebrow": "Premium IT Solutions Partner",
+    "headlinePrefix": "We design and deliver",
+    "rotatingServices": ["AI & ML", "Cloud & DevOps", "Custom Software", "Mobile Apps"],
+    "headlineSuffix": "for teams that scale.",
+    "subtext": "Forgeone helps ambitious teams launch modern products, modernize critical platforms, and deliver enterprise-grade engineering with speed, clarity, and accountability.",
+    "cta": { "label": "Book a Strategy Call", "path": "/contact" },
+    "stats": [
+      { "value": "120+", "label": "Projects delivered" },
+      { "value": "40+", "label": "Teams supported" },
+      { "value": "98%", "label": "Client retention" }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Trusted By",
+    "title": "Teams that build with Forgeone",
+    "logos": [
+      { "name": "Microsoft", "image": "/assets/clients/microsoft.svg" },
+      { "name": "KPMG", "image": "/assets/clients/kpmg.svg" },
+      { "name": "Nasdaq", "image": "/assets/clients/nasdaq.svg" },
+      { "name": "eBay", "image": "/assets/clients/ebay.svg" },
+      { "name": "Humana", "image": "/assets/clients/humana.svg" },
+      { "name": "Capgemini", "image": "/assets/clients/capegemini.svg" },
+      { "name": "American Airlines", "image": "/assets/clients/american_airlines.svg" }
+    ]
+  },
+  "whoWeAre": {
+    "eyebrow": "Who We Are",
+    "title": "A partner built for clarity, craft, and delivery.",
+    "description": "Forgeone is an IT solutions company helping organizations modernize products, automate operations, and ship software that stands up in the real world. We combine strategy, design, and engineering into one accountable team.",
+    "stats": [
+      { "value": "120+", "label": "Projects delivered" },
+      { "value": "40+", "label": "Product teams supported" },
+      { "value": "98%", "label": "Client retention" },
+      { "value": "12+", "label": "Years of combined leadership" }
+    ],
+    "image": "/assets/WhoWeAreImage-1.webp",
+    "spotlight": "Trusted execution for teams that need technical depth and boardroom-ready clarity."
+  },
+  "aboutInfo": {
+    "eyebrow": "Why Forgeone",
+    "title": "We build systems that business and engineering can both stand behind.",
+    "mission": "Our mission is to help companies move faster without trading away quality, security, or clarity. Every engagement is structured around outcomes—measurable progress, transparent communication, and software that continues to create value after launch.",
+    "values": [
+      {
+        "title": "Outcome ownership",
+        "description": "We define success with you up front, then organize delivery around those outcomes—not vanity velocity.",
+        "highlight": "Clear milestones and executive visibility"
+      },
+      {
+        "title": "Senior-led execution",
+        "description": "Experienced engineers and architects stay close to the work, so decisions stay sharp from discovery through release.",
+        "highlight": "Fewer handoffs, faster resolution"
+      },
+      {
+        "title": "Practical innovation",
+        "description": "We adopt AI, cloud, and modern tooling where they create leverage—not where they create noise.",
+        "highlight": "Modern stacks chosen for business fit"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "Capabilities designed for modern product and IT teams",
+    "description": "Seven focused service lines. One accountable partner. Choose a capability or combine them into an end-to-end engagement.",
+    "items": [
+      {
+        "slug": "ai-ml",
+        "title": "AI & ML",
+        "summary": "Intelligent products, automation, and data-driven decision systems tailored to your workflows.",
+        "icon": "Brain",
+        "highlight": "Move from prototypes to production AI."
+      },
+      {
+        "slug": "mobile-app-development",
+        "title": "Mobile App Development",
+        "summary": "Native and cross-platform apps with polished UX and dependable performance.",
+        "icon": "Smartphone",
+        "highlight": "Premium mobile UX with reliable delivery."
+      },
+      {
+        "slug": "custom-software-development",
+        "title": "Custom Software Development",
+        "summary": "Bespoke platforms and internal tools built around how your organization actually operates.",
+        "icon": "Code2",
+        "highlight": "Systems shaped around your workflows."
+      },
+      {
+        "slug": "web-development",
+        "title": "Web Development",
+        "summary": "Fast, accessible, conversion-focused web experiences and application frontends.",
+        "icon": "Globe",
+        "highlight": "Modern frontends that earn trust quickly."
+      },
+      {
+        "slug": "cloud-devops",
+        "title": "Cloud & DevOps",
+        "summary": "Secure cloud foundations, CI/CD, and reliability practices that scale with demand.",
+        "icon": "Cloud",
+        "highlight": "Release with speed, resilience, and observability."
+      },
+      {
+        "slug": "qa-testing",
+        "title": "QA & Testing",
+        "summary": "Quality strategies, automation, and release confidence for every critical path.",
+        "icon": "ShieldCheck",
+        "highlight": "Confidence engineered into every release."
+      },
+      {
+        "slug": "data-security",
+        "title": "Data Security",
+        "summary": "Security architecture, compliance readiness, and protection for sensitive systems.",
+        "icon": "Lock",
+        "highlight": "Protect systems without slowing product delivery."
+      }
+    ]
+  },
+  "contactBanner": {
+    "eyebrow": "Ready when you are",
+    "title": "Have a product challenge worth solving?",
+    "description": "Share your goals, constraints, and timeline. We'll respond with a clear point of view and a practical next step.",
+    "primaryCta": { "label": "Send a Message", "path": "/contact" },
+    "secondaryCta": { "label": "Browse Services", "path": "/services/ai-ml" }
+  },
+  "blogs": {
+    "eyebrow": "Insights",
+    "title": "Ideas that help teams ship smarter",
+    "description": "Practical perspectives on AI, delivery, architecture, and building software that lasts.",
+    "featuredIds": ["modernizing-legacy-platforms", "ai-that-ships", "api-design-that-scales"],
+    "viewAllPath": "/blogs"
+  },
+  "caseStudies": {
+    "eyebrow": "Proof",
+    "title": "Outcomes our clients can measure",
+    "description": "Selected engagements where strategy, design, and engineering moved the needle together.",
+    "featuredIds": ["fintech-cloud-migration", "healthcare-mobile-platform", "ecommerce-checkout-rebuild"],
+    "viewAllPath": "/case-studies"
+  },
+  "testimonials": {
+    "eyebrow": "Client Voices",
+    "title": "What partners say about working with us",
+    "items": [
+      {
+        "quote": "Forgeone didn't just deliver features—they helped us rethink how the product should operate. The team communicated like owners, not vendors.",
+        "name": "Priya Mehta",
+        "role": "VP of Product, Harbor Digital",
+        "company": "Harbor Digital",
+        "rating": 5
+      },
+      {
+        "quote": "We needed senior engineers who could move fast without creating technical debt. Forgeone gave us exactly that, and our release cadence improved within a quarter.",
+        "name": "Marcus Chen",
+        "role": "CTO, PulsePay",
+        "company": "PulsePay",
+        "rating": 5
+      },
+      {
+        "quote": "From discovery to production, the process was structured and transparent. We always knew what was shipping, why it mattered, and what came next.",
+        "name": "Elena Vasquez",
+        "role": "Director of Engineering, Kinetic Health",
+        "company": "Kinetic Health",
+        "rating": 5
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Next Step",
+    "title": "Let's build what your roadmap needs next.",
+    "description": "Whether you're launching a new product, modernizing a core system, or adding engineering capacity, Forgeone is ready to help.",
+    "primaryCta": { "label": "Send a Message", "path": "/contact" },
+    "secondaryCta": { "label": "Browse Services", "path": "/services/custom-software-development" }
+  },
+  "technologies": {
+    "eyebrow": "Technology Stack",
+    "title": "Modern tools, chosen for reliability",
+    "description": "We select technologies that fit the problem—stable enough for production, flexible enough for growth.",
+    "categories": [
+      "Frontend",
+      "Backend",
+      "Mobile",
+      "Database",
+      "Cloud / DevOps",
+      "AI & ML",
+      "Authentication",
+      "Testing",
+      "Communication",
+      "Project Management"
+    ],
+    "items": [
+      { "name": "React", "category": "Frontend", "logo": "/assets/techs/frontend/react.svg" },
+      { "name": "Next.js", "category": "Frontend", "logo": "/assets/techs/frontend/nextjs.svg" },
+      { "name": "Angular", "category": "Frontend", "logo": "/assets/techs/frontend/angular.svg" },
+      { "name": "Vue.js", "category": "Frontend", "logo": "/assets/techs/frontend/vuejs.svg" },
+      { "name": "TypeScript", "category": "Frontend", "logo": "/assets/techs/frontend/typescript.svg" },
+      { "name": "JavaScript", "category": "Frontend", "logo": "/assets/techs/frontend/javascript.svg" },
+      { "name": "HTML", "category": "Frontend", "logo": "/assets/techs/frontend/html.svg" },
+      { "name": "CSS", "category": "Frontend", "logo": "/assets/techs/frontend/css.svg" },
+      { "name": "Tailwind CSS", "category": "Frontend", "logo": "/assets/techs/frontend/TailwindCSS.svg" },
+      { "name": "Material UI", "category": "Frontend", "logo": "/assets/techs/frontend/MaterialUi.svg" },
+      { "name": "Bootstrap", "category": "Frontend", "logo": "/assets/techs/frontend/bootstrap.svg" },
+      { "name": "Ruby", "category": "Frontend", "logo": "/assets/techs/frontend/ruby.svg" },
+
+      { "name": "Node.js", "category": "Backend", "logo": "/assets/techs/backend/nodejs.svg" },
+      { "name": "Express.js", "category": "Backend", "logo": "/assets/techs/backend/express.svg" },
+      { "name": "Nest.js", "category": "Backend", "logo": "/assets/techs/backend/Nest.js.svg" },
+      { "name": "GraphQL", "category": "Backend", "logo": "/assets/techs/backend/graphql.svg" },
+      { "name": "Go", "category": "Backend", "logo": "/assets/techs/backend/golang.svg" },
+      { "name": ".NET", "category": "Backend", "logo": "/assets/techs/backend/dotnet.svg" },
+      { "name": "Java", "category": "Backend", "logo": "/assets/techs/backend/java.svg" },
+      { "name": "Python", "category": "Backend", "logo": "/assets/techs/backend/python.svg" },
+      { "name": "PHP", "category": "Backend", "logo": "/assets/techs/backend/php.svg" },
+      { "name": "Laravel", "category": "Backend", "logo": "/assets/techs/backend/laravel.svg" },
+      { "name": "Ruby on Rails", "category": "Backend", "logo": "/assets/techs/backend/rubyonrails.svg" },
+
+      { "name": "React Native", "category": "Mobile", "logo": "/assets/techs/mobile/reactjs.svg" },
+      { "name": "Flutter", "category": "Mobile", "logo": "/assets/techs/mobile/flutter.svg" },
+      { "name": "Swift", "category": "Mobile", "logo": "/assets/techs/mobile/swift.svg" },
+      { "name": "Kotlin", "category": "Mobile", "logo": "/assets/techs/mobile/kotlin.svg" },
+
+      { "name": "MongoDB", "category": "Database", "logo": "/assets/techs/database/mongodb.svg" },
+      { "name": "MySQL", "category": "Database", "logo": "/assets/techs/database/mysql.svg" },
+      { "name": "PostgreSQL", "category": "Database", "logo": "/assets/techs/database/postgresql.svg" },
+      { "name": "SQLite", "category": "Database", "logo": "/assets/techs/database/sqlite.svg" },
+      { "name": "Redis", "category": "Database", "logo": "/assets/techs/database/redis.svg" },
+      { "name": "Firebase", "category": "Database", "logo": "/assets/techs/database/firebase.svg" },
+      { "name": "TensorFlow", "category": "Database", "logo": "/assets/techs/database/tensorflow.svg" },
+      { "name": "PyTorch", "category": "Database", "logo": "/assets/techs/database/pytorch.svg" },
+
+      { "name": "Google Cloud", "category": "Cloud / DevOps", "logo": "/assets/techs/clouddevops/google-cloud.svg" },
+      { "name": "Azure", "category": "Cloud / DevOps", "logo": "/assets/techs/clouddevops/azure.svg" },
+      { "name": "Docker", "category": "Cloud / DevOps", "logo": "/assets/techs/clouddevops/docker.svg" },
+      { "name": "Kubernetes", "category": "Cloud / DevOps", "logo": "/assets/techs/clouddevops/kubernetes.svg" },
+      { "name": "GitHub", "category": "Cloud / DevOps", "logo": "/assets/techs/clouddevops/GitHub.svg" },
+      { "name": "Vercel", "category": "Cloud / DevOps", "logo": "/assets/techs/clouddevops/vercel.svg" },
+
+      { "name": "OpenAI", "category": "AI & ML", "logo": "/assets/techs/aiml/openai.svg" },
+      { "name": "Claude", "category": "AI & ML", "logo": "/assets/techs/aiml/claude.svg" },
+      { "name": "Gemini", "category": "AI & ML", "logo": "/assets/techs/aiml/gemini.svg" },
+
+      { "name": "Auth0", "category": "Authentication", "logo": "/assets/techs/authentication/auth0.svg" },
+      { "name": "Okta", "category": "Authentication", "logo": "/assets/techs/authentication/okta.svg" },
+
+      { "name": "Cypress", "category": "Testing", "logo": "/assets/techs/testing/cypress.svg" },
+      { "name": "Jest", "category": "Testing", "logo": "/assets/techs/testing/jest.svg" },
+      { "name": "Postman", "category": "Testing", "logo": "/assets/techs/testing/postman.svg" },
+      { "name": "Selenium", "category": "Testing", "logo": "/assets/techs/testing/selenium.svg" },
+
+      { "name": "Google Meet", "category": "Communication", "logo": "/assets/techs/communication/google-meet.svg" },
+      { "name": "Microsoft Teams", "category": "Communication", "logo": "/assets/techs/communication/teams.svg" },
+      { "name": "Zoom", "category": "Communication", "logo": "/assets/techs/communication/zoom.svg" },
+
+      { "name": "Jira", "category": "Project Management", "logo": "/assets/techs/projectmanage/jira.svg" },
+      { "name": "Asana", "category": "Project Management", "logo": "/assets/techs/projectmanage/asana.svg" },
+      { "name": "ClickUp", "category": "Project Management", "logo": "/assets/techs/projectmanage/clickup.svg" },
+      { "name": "Trello", "category": "Project Management", "logo": "/assets/techs/projectmanage/trello.svg" },
+      { "name": "Slack", "category": "Project Management", "logo": "/assets/techs/projectmanage/slack.svg" }
+    ]
+  }
+}
