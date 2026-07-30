@@ -124,7 +124,7 @@ export default function Footer() {
         </div>
 
         <motion.div variants={fadeUp} className="mt-12 border-t border-brand-neutral/10 pt-6 text-center">
-          <p className="text-sm text-brand-neutral/50">© {year} Forgeone. All rights reserved.</p>
+          <p className="text-sm text-brand-neutral/50">&copy; {year} Forgeone Inc. All rights reserved.</p>
         </motion.div>
       </motion.div>
     </footer>
