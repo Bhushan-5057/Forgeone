@@ -10,10 +10,13 @@
     "headlineSuffix": "for teams that scale.",
     "subtext": "Forgeone helps ambitious teams launch modern products, modernize critical platforms, and deliver enterprise-grade engineering with speed, clarity, and accountability.",
     "cta": { "label": "Book a Strategy Call", "path": "/contact" },
+    "statsLabel": "Company Values",
     "stats": [
-      { "value": "120+", "label": "Projects delivered" },
-      { "value": "40+", "label": "Teams supported" },
-      { "value": "98%", "label": "Client retention" }
+      { "value": "Innovation", "label": "Building future-ready solutions" },
+      { "value": "Quality", "label": "Attention to every detail" },
+      { "value": "Collaboration", "label": "Working closely with clients" },
+      { "value": "Integrity", "label": "Transparent communication" },
+      { "value": "Growth", "label": "Helping businesses scale" }
     ]
   },
   "clients": {
@@ -33,11 +36,13 @@
     "eyebrow": "Who We Are",
     "title": "A partner built for clarity, craft, and delivery.",
     "description": "Forgeone is an IT solutions company helping organizations modernize products, automate operations, and ship software that stands up in the real world. We combine strategy, design, and engineering into one accountable team.",
+    "statsLabel": "Company Values",
     "stats": [
-      { "value": "120+", "label": "Projects delivered" },
-      { "value": "40+", "label": "Product teams supported" },
-      { "value": "98%", "label": "Client retention" },
-      { "value": "12+", "label": "Years of combined leadership" }
+      { "value": "Innovation", "label": "Building future-ready solutions" },
+      { "value": "Quality", "label": "Attention to every detail" },
+      { "value": "Collaboration", "label": "Working closely with clients" },
+      { "value": "Integrity", "label": "Transparent communication" },
+      { "value": "Growth", "label": "Helping businesses scale" }
     ],
     "image": "/assets/WhoWeAreImage-1.webp",
     "spotlight": "Trusted execution for teams that need technical depth and boardroom-ready clarity."

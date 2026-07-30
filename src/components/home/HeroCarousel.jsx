@@ -79,23 +79,6 @@ export default function HeroCarousel({ data }) {
               {data.cta?.label || 'Book a Strategy Call'}
             </Button>
           </motion.div>
-
-          {data.stats?.length > 0 && (
-            <motion.div variants={fadeUp} className="mt-10 grid w-full max-w-3xl gap-3 sm:grid-cols-3">
-              {data.stats.map((stat) => (
-                <div
-                  key={stat.label}
-                  className="rounded-[26px] border border-white/12 bg-white/6 p-4 text-left backdrop-blur-xl"
-                >
-                  <CountUpStat
-                    value={stat.value}
-                    className="block font-display text-3xl font-bold tracking-[-0.05em] text-frost"
-                  />
-                  <span className="mt-1 block text-sm text-white">{stat.label}</span>
-                </div>
-              ))}
-            </motion.div>
-          )}
         </motion.div>
       </div>
     </section>

@@ -14,21 +14,31 @@ export default function WhoWeAre({ data }) {
             whileInView="show"
             viewport={viewportOnce}
             variants={staggerWrap(0.08, 0.08)}
-            className="mt-10 grid grid-cols-2 gap-4 sm:gap-5"
+            className="mt-10"
           >
-            {data.stats.map((stat, index) => (
-              <motion.div
-                key={stat.label}
-                variants={index % 2 === 0 ? fadeUp : scaleIn}
-                className="premium-card p-5"
+            {data.statsLabel && (
+              <motion.p
+                variants={fadeUp}
+                className="mb-4 text-[0.7rem] font-semibold uppercase tracking-[0.24em] text-brand-secondary"
               >
-                <CountUpStat
-                  value={stat.value}
-                  className="block font-display text-3xl font-bold tracking-tight text-brand-secondary sm:text-4xl"
-                />
-                <p className="mt-1 text-sm text-steel">{stat.label}</p>
-              </motion.div>
-            ))}
+                {data.statsLabel}
+              </motion.p>
+            )}
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5">
+              {data.stats.map((stat, index) => (
+                <motion.div
+                  key={stat.value}
+                  variants={index % 2 === 0 ? fadeUp : scaleIn}
+                  className="premium-card p-5"
+                >
+                  <CountUpStat
+                    value={stat.value}
+                    className="block font-display text-2xl font-bold tracking-tight text-brand-secondary sm:text-3xl"
+                  />
+                  <p className="mt-1 text-sm text-steel">{stat.label}</p>
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </div>
         <motion.div
